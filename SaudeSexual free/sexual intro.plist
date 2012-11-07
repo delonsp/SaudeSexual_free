@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <array>
+        <string>Esta é a seção de textos do aplicativo.</string>
+        <string>$$ESTA É A SEÇÃO DE TEXTOS DO APLICATIVO$$</string>
+        <string>Clique em uma da seções a esquerda para expandir os tópicos</string>
+        <string>Clique em um dos tópicos para ter acesso aos textos e figuras</string>
+        <string>Para perguntas, sugestões ou  reclamações, contate a DrSolution, através do email contato@drsolution.org ou através do site www.drsolution.org</string>
+        <string>$$DrSolution - Soluções em Aplicativos para Saúde$$</string>
+    </array>
+</plist>

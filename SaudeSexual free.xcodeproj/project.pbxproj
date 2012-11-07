@@ -1,0 +1,1437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F0DC8AE1640929D008CC444 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD731628CA4800B3BCCC /* MainWindow_iPhone.xib */; };
+		3F0DC8C31640BC6A008CC444 /* blank.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0DC8C21640BC6A008CC444 /* blank.png */; };
+		3F13CABB1635AC6D0094EB65 /* DRSStoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F13CABA1635AC6D0094EB65 /* DRSStoreCell.m */; };
+		3F13CABD1635ACEE0094EB65 /* DRSStoreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F13CABC1635ACEE0094EB65 /* DRSStoreCell.xib */; };
+		3F13CABF1635CC0A0094EB65 /* Thumbs-Up.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F13CABE1635CC0A0094EB65 /* Thumbs-Up.png */; };
+		3F1A7DA6164306890003FD01 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AC711628AC7D00B3BCCC /* Default.png */; };
+		3F1A7DA7164306910003FD01 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AC731628ACAD00B3BCCC /* Default@2x.png */; };
+		3F1A7DAD16434E1D0003FD01 /* Unlocked.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F1A7DAC16434E1D0003FD01 /* Unlocked.png */; };
+		3F1A7DAF164353840003FD01 /* OVP.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F1A7DAE164353840003FD01 /* OVP.plist */; };
+		3F1DBBA4163F56E200D72129 /* productsID Dictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F1DBBA3163F56E200D72129 /* productsID Dictionary.plist */; };
+		3F2460EB16480B4500A3E1CE /* productsID Dictionary 2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F2460EA16480B4500A3E1CE /* productsID Dictionary 2.plist */; };
+		3F24AC501628ABDA00B3BCCC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F24AC4F1628ABDA00B3BCCC /* UIKit.framework */; };
+		3F24AC521628ABDA00B3BCCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F24AC511628ABDA00B3BCCC /* Foundation.framework */; };
+		3F24AC541628ABDA00B3BCCC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F24AC531628ABDA00B3BCCC /* CoreGraphics.framework */; };
+		3F24AC561628ABDA00B3BCCC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F24AC551628ABDA00B3BCCC /* CoreData.framework */; };
+		3F24AC5C1628ABDA00B3BCCC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AC5A1628ABDA00B3BCCC /* InfoPlist.strings */; };
+		3F24AC5E1628ABDA00B3BCCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AC5D1628ABDA00B3BCCC /* main.m */; };
+		3F24AC621628ABDB00B3BCCC /* DRSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AC611628ABDB00B3BCCC /* DRSAppDelegate.m */; };
+		3F24AC6B1628ABDB00B3BCCC /* SaudeSexual_free.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AC691628ABDB00B3BCCC /* SaudeSexual_free.xcdatamodeld */; };
+		3F24AC791628AEFD00B3BCCC /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AC781628AEFD00B3BCCC /* Default-Landscape~ipad.png */; };
+		3F24AC7B1628AF1400B3BCCC /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AC7A1628AF1400B3BCCC /* Default-Landscape@2x~ipad.png */; };
+		3F24AC7E1628AFC800B3BCCC /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F24AC7D1628AFC800B3BCCC /* libsqlite3.dylib */; };
+		3F24AC801628AFD800B3BCCC /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F24AC7F1628AFD800B3BCCC /* libz.dylib */; };
+		3F24AC821628AFE500B3BCCC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F24AC811628AFE500B3BCCC /* QuartzCore.framework */; };
+		3F24AC841628AFF500B3BCCC /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F24AC831628AFF500B3BCCC /* CoreText.framework */; };
+		3F24AD011628B4F200B3BCCC /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F24AD001628B4F200B3BCCC /* libCorePlot-CocoaTouch.a */; };
+		3F24AD031628C12A00B3BCCC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD021628C12A00B3BCCC /* Default-568h@2x.png */; };
+		3F24AD0D1628C20000B3BCCC /* LocalyticsDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AD071628C20000B3BCCC /* LocalyticsDatabase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3F24AD0E1628C20000B3BCCC /* LocalyticsSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AD091628C20000B3BCCC /* LocalyticsSession.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3F24AD0F1628C20000B3BCCC /* LocalyticsUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AD0B1628C20000B3BCCC /* LocalyticsUploader.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3F24AD171628C3B900B3BCCC /* DEPictureTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD161628C3B900B3BCCC /* DEPictureTableViewCell.xib */; };
+		3F24AD1A1628C42D00B3BCCC /* DEPictureTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AD191628C42D00B3BCCC /* DEPictureTableViewCell.m */; };
+		3F24AD771628D17E00B3BCCC /* RateSuggestService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AD121628C26B00B3BCCC /* RateSuggestService.m */; };
+		3F24AD781628D17E00B3BCCC /* AppModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AD261628C65800B3BCCC /* AppModel.m */; };
+		3F24AD791628D1DD00B3BCCC /* DRSQuestionnaire.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AD281628C6D100B3BCCC /* DRSQuestionnaire.m */; };
+		3F24ADB41628D29000B3BCCC /* prevalencia DE.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD7A1628D29000B3BCCC /* prevalencia DE.png */; };
+		3F24ADB51628D29000B3BCCC /* anorgasmia mulher.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD7B1628D29000B3BCCC /* anorgasmia mulher.png */; };
+		3F24ADB61628D29000B3BCCC /* causas fisicas2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD7C1628D29000B3BCCC /* causas fisicas2.png */; };
+		3F24ADB71628D29000B3BCCC /* causas fisicas1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD7D1628D29000B3BCCC /* causas fisicas1.png */; };
+		3F24ADB81628D29000B3BCCC /* baixo desejo mulher.001.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD7E1628D29000B3BCCC /* baixo desejo mulher.001.png */; };
+		3F24ADB91628D29000B3BCCC /* dor na penetracao.001.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD7F1628D29000B3BCCC /* dor na penetracao.001.png */; };
+		3F24ADBA1628D29000B3BCCC /* dor na penetracao.002.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD801628D29000B3BCCC /* dor na penetracao.002.png */; };
+		3F24ADBB1628D29000B3BCCC /* baixo desejo mulher.002.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD811628D29000B3BCCC /* baixo desejo mulher.002.png */; };
+		3F24ADBC1628D29000B3BCCC /* Cycle1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD821628D29000B3BCCC /* Cycle1.png */; };
+		3F24ADBD1628D29000B3BCCC /* amielle.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD831628D29000B3BCCC /* amielle.png */; };
+		3F24ADBE1628D29000B3BCCC /* disseminated_candidiasis.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD841628D29000B3BCCC /* disseminated_candidiasis.png */; };
+		3F24ADBF1628D29000B3BCCC /* disseminated_zoster.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD851628D29000B3BCCC /* disseminated_zoster.png */; };
+		3F24ADC01628D29000B3BCCC /* Kaposi and zoster.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD861628D29000B3BCCC /* Kaposi and zoster.png */; };
+		3F24ADC11628D29000B3BCCC /* cirrhosis.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD871628D29000B3BCCC /* cirrhosis.png */; };
+		3F24ADC21628D29000B3BCCC /* liver_tumour.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD881628D29000B3BCCC /* liver_tumour.png */; };
+		3F24ADC31628D29000B3BCCC /* hep_b_virus.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD891628D29000B3BCCC /* hep_b_virus.png */; };
+		3F24ADC41628D29000B3BCCC /* Lymphogranuloma_venereum.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD8A1628D29000B3BCCC /* Lymphogranuloma_venereum.png */; };
+		3F24ADC51628D29000B3BCCC /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD8B1628D29000B3BCCC /* background.png */; };
+		3F24ADC71628D29000B3BCCC /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD8D1628D29000B3BCCC /* Icon-Small-50.png */; };
+		3F24ADC81628D29000B3BCCC /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD8E1628D29000B3BCCC /* Icon-Small@2x.png */; };
+		3F24ADC91628D29000B3BCCC /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD8F1628D29000B3BCCC /* Icon-Small.png */; };
+		3F24ADCA1628D29000B3BCCC /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD901628D29000B3BCCC /* Icon-72.png */; };
+		3F24ADCB1628D29000B3BCCC /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD911628D29000B3BCCC /* Icon@2x.png */; };
+		3F24ADCC1628D29000B3BCCC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD921628D29000B3BCCC /* Icon.png */; };
+		3F24ADCE1628D29000B3BCCC /* sifilis terciaria.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD941628D29000B3BCCC /* sifilis terciaria.png */; };
+		3F24ADCF1628D29000B3BCCC /* sifilis secundaria.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD951628D29000B3BCCC /* sifilis secundaria.png */; };
+		3F24ADD01628D29000B3BCCC /* cancro duro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD961628D29000B3BCCC /* cancro duro.jpg */; };
+		3F24ADD11628D29000B3BCCC /* espiroqueta.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD971628D29000B3BCCC /* espiroqueta.png */; };
+		3F24ADD21628D29000B3BCCC /* herpes mulher.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD981628D29000B3BCCC /* herpes mulher.png */; };
+		3F24ADD31628D29000B3BCCC /* herpes homem.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD991628D29000B3BCCC /* herpes homem.png */; };
+		3F24ADD41628D29000B3BCCC /* gonorreia colo uterino.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD9A1628D29000B3BCCC /* gonorreia colo uterino.png */; };
+		3F24ADD51628D29000B3BCCC /* gonorreia homem.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD9B1628D29000B3BCCC /* gonorreia homem.png */; };
+		3F24ADD61628D29000B3BCCC /* condiloma anal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD9C1628D29000B3BCCC /* condiloma anal.png */; };
+		3F24ADD71628D29000B3BCCC /* condiloma vulvar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD9D1628D29000B3BCCC /* condiloma vulvar.png */; };
+		3F24ADD81628D29000B3BCCC /* condiloma gigante.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD9E1628D29000B3BCCC /* condiloma gigante.png */; };
+		3F24ADD91628D29000B3BCCC /* condiloma1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD9F1628D29000B3BCCC /* condiloma1.png */; };
+		3F24ADDA1628D29000B3BCCC /* muse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F24ADA01628D29000B3BCCC /* muse.jpg */; };
+		3F24ADDB1628D29000B3BCCC /* Penis anatomy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F24ADA11628D29000B3BCCC /* Penis anatomy.jpg */; };
+		3F24ADDC1628D29000B3BCCC /* penis arterial.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F24ADA21628D29000B3BCCC /* penis arterial.jpg */; };
+		3F24ADDD1628D29000B3BCCC /* injection testing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F24ADA31628D29000B3BCCC /* injection testing.jpg */; };
+		3F24ADDE1628D29000B3BCCC /* torniquete.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F24ADA41628D29000B3BCCC /* torniquete.jpg */; };
+		3F24ADDF1628D29000B3BCCC /* vacuo2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F24ADA51628D29000B3BCCC /* vacuo2.jpg */; };
+		3F24ADE01628D29000B3BCCC /* erecao1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F24ADA61628D29000B3BCCC /* erecao1.jpg */; };
+		3F24ADE11628D29000B3BCCC /* biotesiometria.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F24ADA71628D29000B3BCCC /* biotesiometria.jpg */; };
+		3F24ADE21628D29000B3BCCC /* rigiscan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F24ADA81628D29000B3BCCC /* rigiscan.jpg */; };
+		3F24ADE31628D29000B3BCCC /* proper site of injection.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F24ADA91628D29000B3BCCC /* proper site of injection.jpg */; };
+		3F24ADE41628D29000B3BCCC /* protese 3 volumes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F24ADAA1628D29000B3BCCC /* protese 3 volumes.jpg */; };
+		3F24ADE51628D29000B3BCCC /* angiografia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F24ADAB1628D29000B3BCCC /* angiografia.jpg */; };
+		3F24ADE61628D29000B3BCCC /* protese.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F24ADAC1628D29000B3BCCC /* protese.jpg */; };
+		3F24ADE71628D29000B3BCCC /* vacuo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F24ADAD1628D29000B3BCCC /* vacuo.jpg */; };
+		3F24ADE81628D29000B3BCCC /* drsolution.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24ADAE1628D29000B3BCCC /* drsolution.png */; };
+		3F24ADE91628D29000B3BCCC /* 96-book.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24ADAF1628D29000B3BCCC /* 96-book.png */; };
+		3F24ADEA1628D29000B3BCCC /* 117-todo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24ADB01628D29000B3BCCC /* 117-todo.png */; };
+		3F24ADEB1628D29000B3BCCC /* Alert.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24ADB11628D29000B3BCCC /* Alert.png */; };
+		3F24ADEC1628D29000B3BCCC /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24ADB21628D29000B3BCCC /* blueButton.png */; };
+		3F24ADED1628D29000B3BCCC /* whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F24ADB31628D29000B3BCCC /* whiteButton.png */; };
+		3F24AE121628D4CB00B3BCCC /* DST Pictures Dictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F24ADF51628D4CB00B3BCCC /* DST Pictures Dictionary.plist */; };
+		3F24AE131628D4CB00B3BCCC /* DST.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F24ADF61628D4CB00B3BCCC /* DST.plist */; };
+		3F24AE151628D4CB00B3BCCC /* Ejaculação Precoce Pictures Dictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F24ADF81628D4CB00B3BCCC /* Ejaculação Precoce Pictures Dictionary.plist */; };
+		3F24AE161628D4CB00B3BCCC /* Ejaculação Precoce.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F24ADF91628D4CB00B3BCCC /* Ejaculação Precoce.plist */; };
+		3F24AE171628D4CB00B3BCCC /* Ejaculação Retardada Pictures Dictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F24ADFA1628D4CB00B3BCCC /* Ejaculação Retardada Pictures Dictionary.plist */; };
+		3F24AE181628D4CB00B3BCCC /* Ejaculação Retardada.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F24ADFB1628D4CB00B3BCCC /* Ejaculação Retardada.plist */; };
+		3F24AE1B1628D4CB00B3BCCC /* Impotência Sexual Pictures Dictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F24ADFE1628D4CB00B3BCCC /* Impotência Sexual Pictures Dictionary.plist */; };
+		3F24AE1C1628D4CB00B3BCCC /* Impotência Sexual.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F24ADFF1628D4CB00B3BCCC /* Impotência Sexual.plist */; };
+		3F24AE1D1628D4CB00B3BCCC /* Intro Questionários.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AE001628D4CB00B3BCCC /* Intro Questionários.plist */; };
+		3F24AE1F1628D4CB00B3BCCC /* Nomes Questionários 2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AE021628D4CB00B3BCCC /* Nomes Questionários 2.plist */; };
+		3F24AE201628D4CB00B3BCCC /* Nomes Questionários.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AE031628D4CB00B3BCCC /* Nomes Questionários.plist */; };
+		3F24AE231628D4CB00B3BCCC /* Questionários.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AE061628D4CB00B3BCCC /* Questionários.plist */; };
+		3F24AE241628D4CB00B3BCCC /* Resultados.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AE071628D4CB00B3BCCC /* Resultados.plist */; };
+		3F24AE251628D4CB00B3BCCC /* Saúde da Mulher Pictures Dictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AE081628D4CB00B3BCCC /* Saúde da Mulher Pictures Dictionary.plist */; };
+		3F24AE261628D4CB00B3BCCC /* Saúde da Mulher.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AE091628D4CB00B3BCCC /* Saúde da Mulher.plist */; };
+		3F24AE271628D4CB00B3BCCC /* Saúde do Homossexual.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AE0A1628D4CB00B3BCCC /* Saúde do Homossexual.plist */; };
+		3F24AE291628D4CB00B3BCCC /* sexual info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AE0C1628D4CB00B3BCCC /* sexual info.plist */; };
+		3F24AE2A1628D4CB00B3BCCC /* sexual intro.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AE0D1628D4CB00B3BCCC /* sexual intro.plist */; };
+		3F24AE2C1628D4CB00B3BCCC /* Text1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AE0F1628D4CB00B3BCCC /* Text1.plist */; };
+		3F24AE2D1628D4CB00B3BCCC /* Text1a.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AE101628D4CB00B3BCCC /* Text1a.plist */; };
+		3F24AE2E1628D4CB00B3BCCC /* Text2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AE111628D4CB00B3BCCC /* Text2.plist */; };
+		3F24AE311628D52800B3BCCC /* Baixo Desejo Sexual Pictures Dictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AE2F1628D52800B3BCCC /* Baixo Desejo Sexual Pictures Dictionary.plist */; };
+		3F24AE321628D52800B3BCCC /* Baixo Desejo Sexual.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AE301628D52800B3BCCC /* Baixo Desejo Sexual.plist */; };
+		3F24AE341628D6D500B3BCCC /* DRSTextTableViewController1_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD611628C88500B3BCCC /* DRSTextTableViewController1_iPhone.xib */; };
+		3F24AE351628D6DA00B3BCCC /* DRSTextTableViewController2_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD641628C88500B3BCCC /* DRSTextTableViewController2_iPhone.xib */; };
+		3F24AE361628D6DD00B3BCCC /* DRSTextTableViewController3_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD671628C88500B3BCCC /* DRSTextTableViewController3_iPhone.xib */; };
+		3F24AE371628D6E300B3BCCC /* DRSQuestTableViewController2_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD5E1628C88500B3BCCC /* DRSQuestTableViewController2_iPhone.xib */; };
+		3F24AE381628D6E600B3BCCC /* DRSQuestTableViewController1_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD5B1628C88500B3BCCC /* DRSQuestTableViewController1_iPhone.xib */; };
+		3F24AE391628D6E900B3BCCC /* DRSQuestIntroViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD551628C88500B3BCCC /* DRSQuestIntroViewController_iPhone.xib */; };
+		3F24AE3A1628D6EC00B3BCCC /* DRSPontTableViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD4C1628C88500B3BCCC /* DRSPontTableViewController_iPhone.xib */; };
+		3F24AE3B1628D6EF00B3BCCC /* DRSPontTableViewController2_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD4F1628C88500B3BCCC /* DRSPontTableViewController2_iPhone.xib */; };
+		3F24AE3C1628D6F200B3BCCC /* DRSPictureViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD721628C94F00B3BCCC /* DRSPictureViewController_iPhone.xib */; };
+		3F24AE3D1628D6F700B3BCCC /* DRSInfoTableViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD6F1628C92800B3BCCC /* DRSInfoTableViewController_iPhone.xib */; };
+		3F24AE3E1628D6FB00B3BCCC /* DRSBarGraphViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD6A1628C8D400B3BCCC /* DRSBarGraphViewController.xib */; };
+		3F24AE3F1628D6FF00B3BCCC /* DRSBarGraphViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD2D1628C77700B3BCCC /* DRSBarGraphViewController_iPad.xib */; };
+		3F24AE401628D70400B3BCCC /* DRSInfoTableViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD321628C77700B3BCCC /* DRSInfoTableViewController_iPad.xib */; };
+		3F24AE411628D70800B3BCCC /* DRSPictureViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD351628C77700B3BCCC /* DRSPictureViewController_iPad.xib */; };
+		3F24AE421628D70D00B3BCCC /* DRSQuestIntroViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD3C1628C77700B3BCCC /* DRSQuestIntroViewController_iPad.xib */; };
+		3F24AE431628D71100B3BCCC /* DRSQuestTableViewController1_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD3F1628C77700B3BCCC /* DRSQuestTableViewController1_iPad.xib */; };
+		3F24AE441628D71400B3BCCC /* DRSQuestTableViewController2_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD421628C77700B3BCCC /* DRSQuestTableViewController2_iPad.xib */; };
+		3F24AE451628D71700B3BCCC /* DRSTextTableViewController1_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD451628C77700B3BCCC /* DRSTextTableViewController1_iPad.xib */; };
+		3F24AE461628D71A00B3BCCC /* DRSTextTableViewController3_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD481628C77700B3BCCC /* DRSTextTableViewController3_iPad.xib */; };
+		3F24AE471628D80300B3BCCC /* DRSTextTableViewController1_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AD441628C77700B3BCCC /* DRSTextTableViewController1_iPad.m */; };
+		3F24AE481628D80300B3BCCC /* DRSTextTableViewController3_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AD471628C77700B3BCCC /* DRSTextTableViewController3_iPad.m */; };
+		3F24AE491628D80300B3BCCC /* DRSTextTableViewController1_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AD601628C88500B3BCCC /* DRSTextTableViewController1_iPhone.m */; };
+		3F24AE4A1628D80300B3BCCC /* DRSTextTableViewController2_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AD631628C88500B3BCCC /* DRSTextTableViewController2_iPhone.m */; };
+		3F24AE4B1628D80300B3BCCC /* DRSTextTableViewController3_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AD661628C88500B3BCCC /* DRSTextTableViewController3_iPhone.m */; };
+		3F24AE4C1628D83900B3BCCC /* NSAttributedString+Attributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AD1E1628C4F500B3BCCC /* NSAttributedString+Attributes.m */; };
+		3F24AE4D1628D84700B3BCCC /* OHAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AD201628C4F500B3BCCC /* OHAttributedLabel.m */; };
+		3F24AE4E1628D86400B3BCCC /* DETableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AD1C1628C45E00B3BCCC /* DETableViewCell.m */; };
+		3F24AE4F1628D89100B3BCCC /* TextLevel1.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AD2A1628C6F600B3BCCC /* TextLevel1.m */; };
+		3F24AE501628D8C800B3BCCC /* DRSBarGraphViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AD2C1628C77700B3BCCC /* DRSBarGraphViewController_iPad.m */; };
+		3F24AE511628D8C800B3BCCC /* DRSBarResultViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AD2F1628C77700B3BCCC /* DRSBarResultViewController_iPad.m */; };
+		3F24AE521628D8C800B3BCCC /* DRSInfoTableViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AD311628C77700B3BCCC /* DRSInfoTableViewController_iPad.m */; };
+		3F24AE531628D8C800B3BCCC /* DRSPictureViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AD341628C77700B3BCCC /* DRSPictureViewController_iPad.m */; };
+		3F24AE541628D8C800B3BCCC /* DRSPontTableViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AD371628C77700B3BCCC /* DRSPontTableViewController_iPad.m */; };
+		3F24AE551628D8C800B3BCCC /* DRSPontTableViewController2_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AD391628C77700B3BCCC /* DRSPontTableViewController2_iPad.m */; };
+		3F24AE561628D8C800B3BCCC /* DRSQuestIntroViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AD3B1628C77700B3BCCC /* DRSQuestIntroViewController_iPad.m */; };
+		3F24AE571628D8C800B3BCCC /* DRSQuestTableViewController1_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AD3E1628C77700B3BCCC /* DRSQuestTableViewController1_iPad.m */; };
+		3F24AE581628D8C800B3BCCC /* DRSQuestTableViewController2_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AD411628C77700B3BCCC /* DRSQuestTableViewController2_iPad.m */; };
+		3F24AE591628D8C800B3BCCC /* DRSBarGraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AD691628C8D400B3BCCC /* DRSBarGraphViewController.m */; };
+		3F24AE5A1628D8C800B3BCCC /* DRSBarResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AD6C1628C8D400B3BCCC /* DRSBarResultViewController.m */; };
+		3F24AE5B1628D8C800B3BCCC /* DRSInfoTableViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AD6E1628C92800B3BCCC /* DRSInfoTableViewController_iPhone.m */; };
+		3F24AE5C1628D8C800B3BCCC /* DRSPictureViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AD711628C94F00B3BCCC /* DRSPictureViewController_iPhone.m */; };
+		3F24AE5D1628D8C800B3BCCC /* DRSPontTableViewController2_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AD4E1628C88500B3BCCC /* DRSPontTableViewController2_iPhone.m */; };
+		3F24AE5E1628D8C800B3BCCC /* DRSPontTableViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AD4B1628C88500B3BCCC /* DRSPontTableViewController_iPhone.m */; };
+		3F24AE5F1628D8C800B3BCCC /* DRSQuestIntroViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AD541628C88500B3BCCC /* DRSQuestIntroViewController_iPhone.m */; };
+		3F24AE601628D8C800B3BCCC /* DRSQuestTableViewController1_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AD5A1628C88500B3BCCC /* DRSQuestTableViewController1_iPhone.m */; };
+		3F24AE611628D8C800B3BCCC /* DRSQuestTableViewController2_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AD5D1628C88500B3BCCC /* DRSQuestTableViewController2_iPhone.m */; };
+		3F24AE641628DEA000B3BCCC /* Quest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AE631628DC2300B3BCCC /* Quest.m */; };
+		3F24AE6D1628EA4B00B3BCCC /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F24AE6C1628EA4B00B3BCCC /* StoreKit.framework */; };
+		3F3B00B5162E5AE4004CB690 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B00B4162E5AE4004CB690 /* NSData+Base64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3F4559D8162B6ECD00401EFD /* DRSIAPDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4559D7162B6ECD00401EFD /* DRSIAPDataSource.m */; };
+		3F4E0D0A1632213F00FD6621 /* DRSSaudeSexualIAPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E0D071632213F00FD6621 /* DRSSaudeSexualIAPHelper.m */; };
+		3F4E0D0B1632213F00FD6621 /* IAPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E0D091632213F00FD6621 /* IAPHelper.m */; };
+		3F4E0D111632242C00FD6621 /* Shopping-Cart.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F4E0D101632242C00FD6621 /* Shopping-Cart.png */; };
+		3F4E0D1D1632430B00FD6621 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E0D1C1632430B00FD6621 /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3F9ABC7E16399CF300D25273 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD491628C77700B3BCCC /* MainWindow_iPad.xib */; };
+		3F9EB1DF1629EFB300054118 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9EB1DE1629EFB300054118 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3F9EB1E11629F31600054118 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9EB1E01629F31500054118 /* SystemConfiguration.framework */; };
+		3FAC6D4E162CC1AC00109A1B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FAC6D4D162CC1AB00109A1B /* Security.framework */; };
+		3FAC6D54162CC25900109A1B /* VerificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAC6D53162CC25900109A1B /* VerificationController.m */; };
+		3FAC6D5D162CD05B00109A1B /* DRSContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAC6D5C162CD05B00109A1B /* DRSContentController.m */; };
+		3FAC6D67162CD34100109A1B /* EDITS in Resources */ = {isa = PBXBuildFile; fileRef = 3FAC6D5F162CD34100109A1B /* EDITS */; };
+		3FAC6D68162CD34100109A1B /* HSDD in Resources */ = {isa = PBXBuildFile; fileRef = 3FAC6D60162CD34100109A1B /* HSDD */; };
+		3FAC6D69162CD34100109A1B /* IIEF-5 in Resources */ = {isa = PBXBuildFile; fileRef = 3FAC6D61162CD34100109A1B /* IIEF-5 */; };
+		3FAC6D6A162CD34100109A1B /* IPE in Resources */ = {isa = PBXBuildFile; fileRef = 3FAC6D62162CD34100109A1B /* IPE */; };
+		3FAC6D6B162CD34100109A1B /* OVP in Resources */ = {isa = PBXBuildFile; fileRef = 3FAC6D63162CD34100109A1B /* OVP */; };
+		3FAC6D6C162CD34100109A1B /* QEQ in Resources */ = {isa = PBXBuildFile; fileRef = 3FAC6D64162CD34100109A1B /* QEQ */; };
+		3FAC6D6D162CD34100109A1B /* SEAR in Resources */ = {isa = PBXBuildFile; fileRef = 3FAC6D65162CD34100109A1B /* SEAR */; };
+		3FAC6D6E162CD34100109A1B /* SQoL-M in Resources */ = {isa = PBXBuildFile; fileRef = 3FAC6D66162CD34100109A1B /* SQoL-M */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F0DC8C21640BC6A008CC444 /* blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blank.png; sourceTree = "<group>"; };
+		3F13CAB91635AC6D0094EB65 /* DRSStoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRSStoreCell.h; sourceTree = "<group>"; };
+		3F13CABA1635AC6D0094EB65 /* DRSStoreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRSStoreCell.m; sourceTree = "<group>"; };
+		3F13CABC1635ACEE0094EB65 /* DRSStoreCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DRSStoreCell.xib; sourceTree = "<group>"; };
+		3F13CABE1635CC0A0094EB65 /* Thumbs-Up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Thumbs-Up.png"; sourceTree = "<group>"; };
+		3F1A7DAC16434E1D0003FD01 /* Unlocked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Unlocked.png; sourceTree = "<group>"; };
+		3F1A7DAE164353840003FD01 /* OVP.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = OVP.plist; sourceTree = "<group>"; };
+		3F1DBBA3163F56E200D72129 /* productsID Dictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "productsID Dictionary.plist"; sourceTree = "<group>"; };
+		3F2460EA16480B4500A3E1CE /* productsID Dictionary 2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "productsID Dictionary 2.plist"; sourceTree = "<group>"; };
+		3F24AC4B1628ABDA00B3BCCC /* SaudeSexual free.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SaudeSexual free.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F24AC4F1628ABDA00B3BCCC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F24AC511628ABDA00B3BCCC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F24AC531628ABDA00B3BCCC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F24AC551628ABDA00B3BCCC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3F24AC591628ABDA00B3BCCC /* SaudeSexual free-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SaudeSexual free-Info.plist"; sourceTree = "<group>"; };
+		3F24AC5B1628ABDA00B3BCCC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F24AC5D1628ABDA00B3BCCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F24AC5F1628ABDA00B3BCCC /* SaudeSexual free-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SaudeSexual free-Prefix.pch"; sourceTree = "<group>"; };
+		3F24AC601628ABDB00B3BCCC /* DRSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DRSAppDelegate.h; path = "SaudeSexual free/DRSAppDelegate.h"; sourceTree = "<group>"; };
+		3F24AC611628ABDB00B3BCCC /* DRSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DRSAppDelegate.m; path = "SaudeSexual free/DRSAppDelegate.m"; sourceTree = "<group>"; };
+		3F24AC6A1628ABDB00B3BCCC /* SaudeSexual_free.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SaudeSexual_free.xcdatamodel; sourceTree = "<group>"; };
+		3F24AC711628AC7D00B3BCCC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		3F24AC731628ACAD00B3BCCC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		3F24AC781628AEFD00B3BCCC /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape~ipad.png"; path = "../Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		3F24AC7A1628AF1400B3BCCC /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape@2x~ipad.png"; path = "../Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		3F24AC7D1628AFC800B3BCCC /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		3F24AC7F1628AFD800B3BCCC /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		3F24AC811628AFE500B3BCCC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3F24AC831628AFF500B3BCCC /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		3F24AC9C1628B41200B3BCCC /* _CPTConstraintsFixed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _CPTConstraintsFixed.h; sourceTree = "<group>"; };
+		3F24AC9D1628B41200B3BCCC /* _CPTConstraintsRelative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _CPTConstraintsRelative.h; sourceTree = "<group>"; };
+		3F24AC9E1628B41200B3BCCC /* _CPTDarkGradientTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _CPTDarkGradientTheme.h; sourceTree = "<group>"; };
+		3F24AC9F1628B41200B3BCCC /* _CPTFillColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _CPTFillColor.h; sourceTree = "<group>"; };
+		3F24ACA01628B41200B3BCCC /* _CPTFillGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _CPTFillGradient.h; sourceTree = "<group>"; };
+		3F24ACA11628B41200B3BCCC /* _CPTFillImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _CPTFillImage.h; sourceTree = "<group>"; };
+		3F24ACA21628B41200B3BCCC /* _CPTPlainBlackTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _CPTPlainBlackTheme.h; sourceTree = "<group>"; };
+		3F24ACA31628B41200B3BCCC /* _CPTPlainWhiteTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _CPTPlainWhiteTheme.h; sourceTree = "<group>"; };
+		3F24ACA41628B41200B3BCCC /* _CPTSlateTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _CPTSlateTheme.h; sourceTree = "<group>"; };
+		3F24ACA51628B41200B3BCCC /* _CPTStocksTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _CPTStocksTheme.h; sourceTree = "<group>"; };
+		3F24ACA61628B41200B3BCCC /* _CPTXYTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _CPTXYTheme.h; sourceTree = "<group>"; };
+		3F24ACA71628B41200B3BCCC /* CorePlot-CocoaTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CorePlot-CocoaTouch.h"; sourceTree = "<group>"; };
+		3F24ACA81628B41200B3BCCC /* CPTAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAnnotation.h; sourceTree = "<group>"; };
+		3F24ACA91628B41200B3BCCC /* CPTAnnotationHostLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAnnotationHostLayer.h; sourceTree = "<group>"; };
+		3F24ACAA1628B41200B3BCCC /* CPTAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAxis.h; sourceTree = "<group>"; };
+		3F24ACAB1628B41200B3BCCC /* CPTAxisLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAxisLabel.h; sourceTree = "<group>"; };
+		3F24ACAC1628B41200B3BCCC /* CPTAxisLabelGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAxisLabelGroup.h; sourceTree = "<group>"; };
+		3F24ACAD1628B41200B3BCCC /* CPTAxisSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAxisSet.h; sourceTree = "<group>"; };
+		3F24ACAE1628B41200B3BCCC /* CPTAxisTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAxisTitle.h; sourceTree = "<group>"; };
+		3F24ACAF1628B41200B3BCCC /* CPTBarPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTBarPlot.h; sourceTree = "<group>"; };
+		3F24ACB01628B41200B3BCCC /* CPTBorderedLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTBorderedLayer.h; sourceTree = "<group>"; };
+		3F24ACB11628B41200B3BCCC /* CPTColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTColor.h; sourceTree = "<group>"; };
+		3F24ACB21628B41200B3BCCC /* CPTColorSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTColorSpace.h; sourceTree = "<group>"; };
+		3F24ACB31628B41200B3BCCC /* CPTConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTConstraints.h; sourceTree = "<group>"; };
+		3F24ACB41628B41200B3BCCC /* CPTDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTDefinitions.h; sourceTree = "<group>"; };
+		3F24ACB51628B41200B3BCCC /* CPTExceptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTExceptions.h; sourceTree = "<group>"; };
+		3F24ACB61628B41200B3BCCC /* CPTFill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTFill.h; sourceTree = "<group>"; };
+		3F24ACB71628B41200B3BCCC /* CPTGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTGradient.h; sourceTree = "<group>"; };
+		3F24ACB81628B41200B3BCCC /* CPTGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTGraph.h; sourceTree = "<group>"; };
+		3F24ACB91628B41200B3BCCC /* CPTGraphHostingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTGraphHostingView.h; sourceTree = "<group>"; };
+		3F24ACBA1628B41200B3BCCC /* CPTGridLineGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTGridLineGroup.h; sourceTree = "<group>"; };
+		3F24ACBB1628B41200B3BCCC /* CPTGridLines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTGridLines.h; sourceTree = "<group>"; };
+		3F24ACBC1628B41200B3BCCC /* CPTImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTImage.h; sourceTree = "<group>"; };
+		3F24ACBD1628B41200B3BCCC /* CPTLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTLayer.h; sourceTree = "<group>"; };
+		3F24ACBE1628B41200B3BCCC /* CPTLayerAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTLayerAnnotation.h; sourceTree = "<group>"; };
+		3F24ACBF1628B41200B3BCCC /* CPTLegend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTLegend.h; sourceTree = "<group>"; };
+		3F24ACC01628B41200B3BCCC /* CPTLegendEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTLegendEntry.h; sourceTree = "<group>"; };
+		3F24ACC11628B41200B3BCCC /* CPTLimitBand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTLimitBand.h; sourceTree = "<group>"; };
+		3F24ACC21628B41200B3BCCC /* CPTLineCap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTLineCap.h; sourceTree = "<group>"; };
+		3F24ACC31628B41200B3BCCC /* CPTLineStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTLineStyle.h; sourceTree = "<group>"; };
+		3F24ACC41628B41200B3BCCC /* CPTMutableLineStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTMutableLineStyle.h; sourceTree = "<group>"; };
+		3F24ACC51628B41200B3BCCC /* CPTMutableNumericData+TypeConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CPTMutableNumericData+TypeConversion.h"; sourceTree = "<group>"; };
+		3F24ACC61628B41200B3BCCC /* CPTMutableNumericData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTMutableNumericData.h; sourceTree = "<group>"; };
+		3F24ACC71628B41200B3BCCC /* CPTMutablePlotRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTMutablePlotRange.h; sourceTree = "<group>"; };
+		3F24ACC81628B41200B3BCCC /* CPTMutableShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTMutableShadow.h; sourceTree = "<group>"; };
+		3F24ACC91628B41200B3BCCC /* CPTMutableTextStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTMutableTextStyle.h; sourceTree = "<group>"; };
+		3F24ACCA1628B41200B3BCCC /* CPTNumericData+TypeConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CPTNumericData+TypeConversion.h"; sourceTree = "<group>"; };
+		3F24ACCB1628B41200B3BCCC /* CPTNumericData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTNumericData.h; sourceTree = "<group>"; };
+		3F24ACCC1628B41200B3BCCC /* CPTNumericDataType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTNumericDataType.h; sourceTree = "<group>"; };
+		3F24ACCD1628B41200B3BCCC /* CPTPathExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPathExtensions.h; sourceTree = "<group>"; };
+		3F24ACCE1628B41200B3BCCC /* CPTPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPieChart.h; sourceTree = "<group>"; };
+		3F24ACCF1628B41200B3BCCC /* CPTPlatformSpecificCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlatformSpecificCategories.h; sourceTree = "<group>"; };
+		3F24ACD01628B41200B3BCCC /* CPTPlatformSpecificDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlatformSpecificDefines.h; sourceTree = "<group>"; };
+		3F24ACD11628B41200B3BCCC /* CPTPlatformSpecificFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlatformSpecificFunctions.h; sourceTree = "<group>"; };
+		3F24ACD21628B41200B3BCCC /* CPTPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlot.h; sourceTree = "<group>"; };
+		3F24ACD31628B41200B3BCCC /* CPTPlotArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlotArea.h; sourceTree = "<group>"; };
+		3F24ACD41628B41200B3BCCC /* CPTPlotAreaFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlotAreaFrame.h; sourceTree = "<group>"; };
+		3F24ACD51628B41200B3BCCC /* CPTPlotGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlotGroup.h; sourceTree = "<group>"; };
+		3F24ACD61628B41200B3BCCC /* CPTPlotRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlotRange.h; sourceTree = "<group>"; };
+		3F24ACD71628B41200B3BCCC /* CPTPlotSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlotSpace.h; sourceTree = "<group>"; };
+		3F24ACD81628B41200B3BCCC /* CPTPlotSpaceAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlotSpaceAnnotation.h; sourceTree = "<group>"; };
+		3F24ACD91628B41200B3BCCC /* CPTPlotSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlotSymbol.h; sourceTree = "<group>"; };
+		3F24ACDA1628B41200B3BCCC /* CPTRangePlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTRangePlot.h; sourceTree = "<group>"; };
+		3F24ACDB1628B41200B3BCCC /* CPTResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTResponder.h; sourceTree = "<group>"; };
+		3F24ACDC1628B41200B3BCCC /* CPTScatterPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTScatterPlot.h; sourceTree = "<group>"; };
+		3F24ACDD1628B41200B3BCCC /* CPTShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTShadow.h; sourceTree = "<group>"; };
+		3F24ACDE1628B41200B3BCCC /* CPTTextLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTTextLayer.h; sourceTree = "<group>"; };
+		3F24ACDF1628B41200B3BCCC /* CPTTextStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTTextStyle.h; sourceTree = "<group>"; };
+		3F24ACE01628B41200B3BCCC /* CPTTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTTheme.h; sourceTree = "<group>"; };
+		3F24ACE11628B41200B3BCCC /* CPTTimeFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTTimeFormatter.h; sourceTree = "<group>"; };
+		3F24ACE21628B41200B3BCCC /* CPTTradingRangePlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTTradingRangePlot.h; sourceTree = "<group>"; };
+		3F24ACE31628B41200B3BCCC /* CPTUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTUtilities.h; sourceTree = "<group>"; };
+		3F24ACE41628B41200B3BCCC /* CPTXYAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTXYAxis.h; sourceTree = "<group>"; };
+		3F24ACE51628B41200B3BCCC /* CPTXYAxisSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTXYAxisSet.h; sourceTree = "<group>"; };
+		3F24ACE61628B41200B3BCCC /* CPTXYGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTXYGraph.h; sourceTree = "<group>"; };
+		3F24ACE71628B41200B3BCCC /* CPTXYPlotSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTXYPlotSpace.h; sourceTree = "<group>"; };
+		3F24ACE81628B41200B3BCCC /* NSCoderExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCoderExtensions.h; sourceTree = "<group>"; };
+		3F24ACE91628B41200B3BCCC /* NSDecimalNumberExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDecimalNumberExtensions.h; sourceTree = "<group>"; };
+		3F24ACEA1628B41200B3BCCC /* NSNumberExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSNumberExtensions.h; sourceTree = "<group>"; };
+		3F24AD001628B4F200B3BCCC /* libCorePlot-CocoaTouch.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libCorePlot-CocoaTouch.a"; sourceTree = "<group>"; };
+		3F24AD021628C12A00B3BCCC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		3F24AD061628C20000B3BCCC /* LocalyticsDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalyticsDatabase.h; sourceTree = "<group>"; };
+		3F24AD071628C20000B3BCCC /* LocalyticsDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalyticsDatabase.m; sourceTree = "<group>"; };
+		3F24AD081628C20000B3BCCC /* LocalyticsSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalyticsSession.h; sourceTree = "<group>"; };
+		3F24AD091628C20000B3BCCC /* LocalyticsSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalyticsSession.m; sourceTree = "<group>"; };
+		3F24AD0A1628C20000B3BCCC /* LocalyticsUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalyticsUploader.h; sourceTree = "<group>"; };
+		3F24AD0B1628C20000B3BCCC /* LocalyticsUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalyticsUploader.m; sourceTree = "<group>"; };
+		3F24AD0C1628C20000B3BCCC /* WebserviceConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebserviceConstants.h; sourceTree = "<group>"; };
+		3F24AD111628C26B00B3BCCC /* RateSuggestService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RateSuggestService.h; sourceTree = "<group>"; };
+		3F24AD121628C26B00B3BCCC /* RateSuggestService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RateSuggestService.m; sourceTree = "<group>"; };
+		3F24AD151628C37C00B3BCCC /* DRSAttributedTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRSAttributedTableView.h; sourceTree = "<group>"; };
+		3F24AD161628C3B900B3BCCC /* DEPictureTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DEPictureTableViewCell.xib; sourceTree = "<group>"; };
+		3F24AD181628C3F800B3BCCC /* DEPictureTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DEPictureTableViewCell.h; sourceTree = "<group>"; };
+		3F24AD191628C42D00B3BCCC /* DEPictureTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEPictureTableViewCell.m; sourceTree = "<group>"; };
+		3F24AD1B1628C45E00B3BCCC /* DETableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DETableViewCell.h; sourceTree = "<group>"; };
+		3F24AD1C1628C45E00B3BCCC /* DETableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DETableViewCell.m; sourceTree = "<group>"; };
+		3F24AD1E1628C4F500B3BCCC /* NSAttributedString+Attributes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+Attributes.m"; sourceTree = "<group>"; };
+		3F24AD1F1628C4F500B3BCCC /* OHAttributedLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OHAttributedLabel.h; sourceTree = "<group>"; };
+		3F24AD201628C4F500B3BCCC /* OHAttributedLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OHAttributedLabel.m; sourceTree = "<group>"; };
+		3F24AD211628C55400B3BCCC /* NSAttributedString+Attributes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Attributes.h"; sourceTree = "<group>"; };
+		3F24AD251628C65800B3BCCC /* AppModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppModel.h; sourceTree = "<group>"; };
+		3F24AD261628C65800B3BCCC /* AppModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppModel.m; sourceTree = "<group>"; };
+		3F24AD271628C6D100B3BCCC /* DRSQuestionnaire.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRSQuestionnaire.h; sourceTree = "<group>"; };
+		3F24AD281628C6D100B3BCCC /* DRSQuestionnaire.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRSQuestionnaire.m; sourceTree = "<group>"; };
+		3F24AD291628C6F600B3BCCC /* TextLevel1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextLevel1.h; sourceTree = "<group>"; };
+		3F24AD2A1628C6F600B3BCCC /* TextLevel1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextLevel1.m; sourceTree = "<group>"; };
+		3F24AD2B1628C77700B3BCCC /* DRSBarGraphViewController_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRSBarGraphViewController_iPad.h; sourceTree = "<group>"; };
+		3F24AD2C1628C77700B3BCCC /* DRSBarGraphViewController_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRSBarGraphViewController_iPad.m; sourceTree = "<group>"; };
+		3F24AD2D1628C77700B3BCCC /* DRSBarGraphViewController_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DRSBarGraphViewController_iPad.xib; sourceTree = "<group>"; };
+		3F24AD2E1628C77700B3BCCC /* DRSBarResultViewController_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRSBarResultViewController_iPad.h; sourceTree = "<group>"; };
+		3F24AD2F1628C77700B3BCCC /* DRSBarResultViewController_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRSBarResultViewController_iPad.m; sourceTree = "<group>"; };
+		3F24AD301628C77700B3BCCC /* DRSInfoTableViewController_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRSInfoTableViewController_iPad.h; sourceTree = "<group>"; };
+		3F24AD311628C77700B3BCCC /* DRSInfoTableViewController_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRSInfoTableViewController_iPad.m; sourceTree = "<group>"; };
+		3F24AD321628C77700B3BCCC /* DRSInfoTableViewController_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DRSInfoTableViewController_iPad.xib; sourceTree = "<group>"; };
+		3F24AD331628C77700B3BCCC /* DRSPictureViewController_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRSPictureViewController_iPad.h; sourceTree = "<group>"; };
+		3F24AD341628C77700B3BCCC /* DRSPictureViewController_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRSPictureViewController_iPad.m; sourceTree = "<group>"; };
+		3F24AD351628C77700B3BCCC /* DRSPictureViewController_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DRSPictureViewController_iPad.xib; sourceTree = "<group>"; };
+		3F24AD361628C77700B3BCCC /* DRSPontTableViewController_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRSPontTableViewController_iPad.h; sourceTree = "<group>"; };
+		3F24AD371628C77700B3BCCC /* DRSPontTableViewController_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRSPontTableViewController_iPad.m; sourceTree = "<group>"; };
+		3F24AD381628C77700B3BCCC /* DRSPontTableViewController2_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRSPontTableViewController2_iPad.h; sourceTree = "<group>"; };
+		3F24AD391628C77700B3BCCC /* DRSPontTableViewController2_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRSPontTableViewController2_iPad.m; sourceTree = "<group>"; };
+		3F24AD3A1628C77700B3BCCC /* DRSQuestIntroViewController_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRSQuestIntroViewController_iPad.h; sourceTree = "<group>"; };
+		3F24AD3B1628C77700B3BCCC /* DRSQuestIntroViewController_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRSQuestIntroViewController_iPad.m; sourceTree = "<group>"; };
+		3F24AD3C1628C77700B3BCCC /* DRSQuestIntroViewController_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DRSQuestIntroViewController_iPad.xib; sourceTree = "<group>"; };
+		3F24AD3D1628C77700B3BCCC /* DRSQuestTableViewController1_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRSQuestTableViewController1_iPad.h; sourceTree = "<group>"; };
+		3F24AD3E1628C77700B3BCCC /* DRSQuestTableViewController1_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRSQuestTableViewController1_iPad.m; sourceTree = "<group>"; };
+		3F24AD3F1628C77700B3BCCC /* DRSQuestTableViewController1_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DRSQuestTableViewController1_iPad.xib; sourceTree = "<group>"; };
+		3F24AD401628C77700B3BCCC /* DRSQuestTableViewController2_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRSQuestTableViewController2_iPad.h; sourceTree = "<group>"; };
+		3F24AD411628C77700B3BCCC /* DRSQuestTableViewController2_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRSQuestTableViewController2_iPad.m; sourceTree = "<group>"; };
+		3F24AD421628C77700B3BCCC /* DRSQuestTableViewController2_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DRSQuestTableViewController2_iPad.xib; sourceTree = "<group>"; };
+		3F24AD431628C77700B3BCCC /* DRSTextTableViewController1_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRSTextTableViewController1_iPad.h; sourceTree = "<group>"; };
+		3F24AD441628C77700B3BCCC /* DRSTextTableViewController1_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRSTextTableViewController1_iPad.m; sourceTree = "<group>"; };
+		3F24AD451628C77700B3BCCC /* DRSTextTableViewController1_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DRSTextTableViewController1_iPad.xib; sourceTree = "<group>"; };
+		3F24AD461628C77700B3BCCC /* DRSTextTableViewController3_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRSTextTableViewController3_iPad.h; sourceTree = "<group>"; };
+		3F24AD471628C77700B3BCCC /* DRSTextTableViewController3_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRSTextTableViewController3_iPad.m; sourceTree = "<group>"; };
+		3F24AD481628C77700B3BCCC /* DRSTextTableViewController3_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DRSTextTableViewController3_iPad.xib; sourceTree = "<group>"; };
+		3F24AD491628C77700B3BCCC /* MainWindow_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow_iPad.xib; sourceTree = "<group>"; };
+		3F24AD4A1628C88500B3BCCC /* DRSPontTableViewController_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRSPontTableViewController_iPhone.h; sourceTree = "<group>"; };
+		3F24AD4B1628C88500B3BCCC /* DRSPontTableViewController_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRSPontTableViewController_iPhone.m; sourceTree = "<group>"; };
+		3F24AD4C1628C88500B3BCCC /* DRSPontTableViewController_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DRSPontTableViewController_iPhone.xib; sourceTree = "<group>"; };
+		3F24AD4D1628C88500B3BCCC /* DRSPontTableViewController2_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRSPontTableViewController2_iPhone.h; sourceTree = "<group>"; };
+		3F24AD4E1628C88500B3BCCC /* DRSPontTableViewController2_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRSPontTableViewController2_iPhone.m; sourceTree = "<group>"; };
+		3F24AD4F1628C88500B3BCCC /* DRSPontTableViewController2_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DRSPontTableViewController2_iPhone.xib; sourceTree = "<group>"; };
+		3F24AD531628C88500B3BCCC /* DRSQuestIntroViewController_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRSQuestIntroViewController_iPhone.h; sourceTree = "<group>"; };
+		3F24AD541628C88500B3BCCC /* DRSQuestIntroViewController_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRSQuestIntroViewController_iPhone.m; sourceTree = "<group>"; };
+		3F24AD551628C88500B3BCCC /* DRSQuestIntroViewController_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DRSQuestIntroViewController_iPhone.xib; sourceTree = "<group>"; };
+		3F24AD591628C88500B3BCCC /* DRSQuestTableViewController1_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRSQuestTableViewController1_iPhone.h; sourceTree = "<group>"; };
+		3F24AD5A1628C88500B3BCCC /* DRSQuestTableViewController1_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRSQuestTableViewController1_iPhone.m; sourceTree = "<group>"; };
+		3F24AD5B1628C88500B3BCCC /* DRSQuestTableViewController1_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DRSQuestTableViewController1_iPhone.xib; sourceTree = "<group>"; };
+		3F24AD5C1628C88500B3BCCC /* DRSQuestTableViewController2_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRSQuestTableViewController2_iPhone.h; sourceTree = "<group>"; };
+		3F24AD5D1628C88500B3BCCC /* DRSQuestTableViewController2_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRSQuestTableViewController2_iPhone.m; sourceTree = "<group>"; };
+		3F24AD5E1628C88500B3BCCC /* DRSQuestTableViewController2_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DRSQuestTableViewController2_iPhone.xib; sourceTree = "<group>"; };
+		3F24AD5F1628C88500B3BCCC /* DRSTextTableViewController1_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRSTextTableViewController1_iPhone.h; sourceTree = "<group>"; };
+		3F24AD601628C88500B3BCCC /* DRSTextTableViewController1_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRSTextTableViewController1_iPhone.m; sourceTree = "<group>"; };
+		3F24AD611628C88500B3BCCC /* DRSTextTableViewController1_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DRSTextTableViewController1_iPhone.xib; sourceTree = "<group>"; };
+		3F24AD621628C88500B3BCCC /* DRSTextTableViewController2_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRSTextTableViewController2_iPhone.h; sourceTree = "<group>"; };
+		3F24AD631628C88500B3BCCC /* DRSTextTableViewController2_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRSTextTableViewController2_iPhone.m; sourceTree = "<group>"; };
+		3F24AD641628C88500B3BCCC /* DRSTextTableViewController2_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DRSTextTableViewController2_iPhone.xib; sourceTree = "<group>"; };
+		3F24AD651628C88500B3BCCC /* DRSTextTableViewController3_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRSTextTableViewController3_iPhone.h; sourceTree = "<group>"; };
+		3F24AD661628C88500B3BCCC /* DRSTextTableViewController3_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRSTextTableViewController3_iPhone.m; sourceTree = "<group>"; };
+		3F24AD671628C88500B3BCCC /* DRSTextTableViewController3_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DRSTextTableViewController3_iPhone.xib; sourceTree = "<group>"; };
+		3F24AD681628C8D400B3BCCC /* DRSBarGraphViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRSBarGraphViewController.h; sourceTree = "<group>"; };
+		3F24AD691628C8D400B3BCCC /* DRSBarGraphViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRSBarGraphViewController.m; sourceTree = "<group>"; };
+		3F24AD6A1628C8D400B3BCCC /* DRSBarGraphViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DRSBarGraphViewController.xib; sourceTree = "<group>"; };
+		3F24AD6B1628C8D400B3BCCC /* DRSBarResultViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRSBarResultViewController.h; sourceTree = "<group>"; };
+		3F24AD6C1628C8D400B3BCCC /* DRSBarResultViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRSBarResultViewController.m; sourceTree = "<group>"; };
+		3F24AD6D1628C92800B3BCCC /* DRSInfoTableViewController_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRSInfoTableViewController_iPhone.h; sourceTree = "<group>"; };
+		3F24AD6E1628C92800B3BCCC /* DRSInfoTableViewController_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRSInfoTableViewController_iPhone.m; sourceTree = "<group>"; };
+		3F24AD6F1628C92800B3BCCC /* DRSInfoTableViewController_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DRSInfoTableViewController_iPhone.xib; sourceTree = "<group>"; };
+		3F24AD701628C94F00B3BCCC /* DRSPictureViewController_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRSPictureViewController_iPhone.h; sourceTree = "<group>"; };
+		3F24AD711628C94F00B3BCCC /* DRSPictureViewController_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRSPictureViewController_iPhone.m; sourceTree = "<group>"; };
+		3F24AD721628C94F00B3BCCC /* DRSPictureViewController_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DRSPictureViewController_iPhone.xib; sourceTree = "<group>"; };
+		3F24AD731628CA4800B3BCCC /* MainWindow_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		3F24AD7A1628D29000B3BCCC /* prevalencia DE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "prevalencia DE.png"; sourceTree = "<group>"; };
+		3F24AD7B1628D29000B3BCCC /* anorgasmia mulher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "anorgasmia mulher.png"; sourceTree = "<group>"; };
+		3F24AD7C1628D29000B3BCCC /* causas fisicas2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "causas fisicas2.png"; sourceTree = "<group>"; };
+		3F24AD7D1628D29000B3BCCC /* causas fisicas1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "causas fisicas1.png"; sourceTree = "<group>"; };
+		3F24AD7E1628D29000B3BCCC /* baixo desejo mulher.001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baixo desejo mulher.001.png"; sourceTree = "<group>"; };
+		3F24AD7F1628D29000B3BCCC /* dor na penetracao.001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dor na penetracao.001.png"; sourceTree = "<group>"; };
+		3F24AD801628D29000B3BCCC /* dor na penetracao.002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dor na penetracao.002.png"; sourceTree = "<group>"; };
+		3F24AD811628D29000B3BCCC /* baixo desejo mulher.002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baixo desejo mulher.002.png"; sourceTree = "<group>"; };
+		3F24AD821628D29000B3BCCC /* Cycle1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cycle1.png; sourceTree = "<group>"; };
+		3F24AD831628D29000B3BCCC /* amielle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amielle.png; sourceTree = "<group>"; };
+		3F24AD841628D29000B3BCCC /* disseminated_candidiasis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disseminated_candidiasis.png; sourceTree = "<group>"; };
+		3F24AD851628D29000B3BCCC /* disseminated_zoster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disseminated_zoster.png; sourceTree = "<group>"; };
+		3F24AD861628D29000B3BCCC /* Kaposi and zoster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kaposi and zoster.png"; sourceTree = "<group>"; };
+		3F24AD871628D29000B3BCCC /* cirrhosis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cirrhosis.png; sourceTree = "<group>"; };
+		3F24AD881628D29000B3BCCC /* liver_tumour.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = liver_tumour.png; sourceTree = "<group>"; };
+		3F24AD891628D29000B3BCCC /* hep_b_virus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hep_b_virus.png; sourceTree = "<group>"; };
+		3F24AD8A1628D29000B3BCCC /* Lymphogranuloma_venereum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lymphogranuloma_venereum.png; sourceTree = "<group>"; };
+		3F24AD8B1628D29000B3BCCC /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		3F24AD8D1628D29000B3BCCC /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		3F24AD8E1628D29000B3BCCC /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		3F24AD8F1628D29000B3BCCC /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		3F24AD901628D29000B3BCCC /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		3F24AD911628D29000B3BCCC /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		3F24AD921628D29000B3BCCC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		3F24AD941628D29000B3BCCC /* sifilis terciaria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sifilis terciaria.png"; sourceTree = "<group>"; };
+		3F24AD951628D29000B3BCCC /* sifilis secundaria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sifilis secundaria.png"; sourceTree = "<group>"; };
+		3F24AD961628D29000B3BCCC /* cancro duro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cancro duro.jpg"; sourceTree = "<group>"; };
+		3F24AD971628D29000B3BCCC /* espiroqueta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = espiroqueta.png; sourceTree = "<group>"; };
+		3F24AD981628D29000B3BCCC /* herpes mulher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "herpes mulher.png"; sourceTree = "<group>"; };
+		3F24AD991628D29000B3BCCC /* herpes homem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "herpes homem.png"; sourceTree = "<group>"; };
+		3F24AD9A1628D29000B3BCCC /* gonorreia colo uterino.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gonorreia colo uterino.png"; sourceTree = "<group>"; };
+		3F24AD9B1628D29000B3BCCC /* gonorreia homem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gonorreia homem.png"; sourceTree = "<group>"; };
+		3F24AD9C1628D29000B3BCCC /* condiloma anal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condiloma anal.png"; sourceTree = "<group>"; };
+		3F24AD9D1628D29000B3BCCC /* condiloma vulvar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condiloma vulvar.png"; sourceTree = "<group>"; };
+		3F24AD9E1628D29000B3BCCC /* condiloma gigante.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condiloma gigante.png"; sourceTree = "<group>"; };
+		3F24AD9F1628D29000B3BCCC /* condiloma1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = condiloma1.png; sourceTree = "<group>"; };
+		3F24ADA01628D29000B3BCCC /* muse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = muse.jpg; sourceTree = "<group>"; };
+		3F24ADA11628D29000B3BCCC /* Penis anatomy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Penis anatomy.jpg"; sourceTree = "<group>"; };
+		3F24ADA21628D29000B3BCCC /* penis arterial.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "penis arterial.jpg"; sourceTree = "<group>"; };
+		3F24ADA31628D29000B3BCCC /* injection testing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "injection testing.jpg"; sourceTree = "<group>"; };
+		3F24ADA41628D29000B3BCCC /* torniquete.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = torniquete.jpg; sourceTree = "<group>"; };
+		3F24ADA51628D29000B3BCCC /* vacuo2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vacuo2.jpg; sourceTree = "<group>"; };
+		3F24ADA61628D29000B3BCCC /* erecao1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = erecao1.jpg; sourceTree = "<group>"; };
+		3F24ADA71628D29000B3BCCC /* biotesiometria.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = biotesiometria.jpg; sourceTree = "<group>"; };
+		3F24ADA81628D29000B3BCCC /* rigiscan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rigiscan.jpg; sourceTree = "<group>"; };
+		3F24ADA91628D29000B3BCCC /* proper site of injection.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "proper site of injection.jpg"; sourceTree = "<group>"; };
+		3F24ADAA1628D29000B3BCCC /* protese 3 volumes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "protese 3 volumes.jpg"; sourceTree = "<group>"; };
+		3F24ADAB1628D29000B3BCCC /* angiografia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = angiografia.jpg; sourceTree = "<group>"; };
+		3F24ADAC1628D29000B3BCCC /* protese.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = protese.jpg; sourceTree = "<group>"; };
+		3F24ADAD1628D29000B3BCCC /* vacuo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vacuo.jpg; sourceTree = "<group>"; };
+		3F24ADAE1628D29000B3BCCC /* drsolution.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drsolution.png; sourceTree = "<group>"; };
+		3F24ADAF1628D29000B3BCCC /* 96-book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "96-book.png"; sourceTree = "<group>"; };
+		3F24ADB01628D29000B3BCCC /* 117-todo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "117-todo.png"; sourceTree = "<group>"; };
+		3F24ADB11628D29000B3BCCC /* Alert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Alert.png; sourceTree = "<group>"; };
+		3F24ADB21628D29000B3BCCC /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
+		3F24ADB31628D29000B3BCCC /* whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteButton.png; sourceTree = "<group>"; };
+		3F24ADF51628D4CB00B3BCCC /* DST Pictures Dictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DST Pictures Dictionary.plist"; sourceTree = "<group>"; };
+		3F24ADF61628D4CB00B3BCCC /* DST.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DST.plist; sourceTree = "<group>"; };
+		3F24ADF81628D4CB00B3BCCC /* Ejaculação Precoce Pictures Dictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Ejaculação Precoce Pictures Dictionary.plist"; sourceTree = "<group>"; };
+		3F24ADF91628D4CB00B3BCCC /* Ejaculação Precoce.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Ejaculação Precoce.plist"; sourceTree = "<group>"; };
+		3F24ADFA1628D4CB00B3BCCC /* Ejaculação Retardada Pictures Dictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Ejaculação Retardada Pictures Dictionary.plist"; sourceTree = "<group>"; };
+		3F24ADFB1628D4CB00B3BCCC /* Ejaculação Retardada.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Ejaculação Retardada.plist"; sourceTree = "<group>"; };
+		3F24ADFE1628D4CB00B3BCCC /* Impotência Sexual Pictures Dictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Impotência Sexual Pictures Dictionary.plist"; sourceTree = "<group>"; };
+		3F24ADFF1628D4CB00B3BCCC /* Impotência Sexual.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Impotência Sexual.plist"; sourceTree = "<group>"; };
+		3F24AE001628D4CB00B3BCCC /* Intro Questionários.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Intro Questionários.plist"; sourceTree = "<group>"; };
+		3F24AE021628D4CB00B3BCCC /* Nomes Questionários 2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Nomes Questionários 2.plist"; sourceTree = "<group>"; };
+		3F24AE031628D4CB00B3BCCC /* Nomes Questionários.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Nomes Questionários.plist"; sourceTree = "<group>"; };
+		3F24AE061628D4CB00B3BCCC /* Questionários.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Questionários.plist"; sourceTree = "<group>"; };
+		3F24AE071628D4CB00B3BCCC /* Resultados.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Resultados.plist; sourceTree = "<group>"; };
+		3F24AE081628D4CB00B3BCCC /* Saúde da Mulher Pictures Dictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Saúde da Mulher Pictures Dictionary.plist"; sourceTree = "<group>"; };
+		3F24AE091628D4CB00B3BCCC /* Saúde da Mulher.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Saúde da Mulher.plist"; sourceTree = "<group>"; };
+		3F24AE0A1628D4CB00B3BCCC /* Saúde do Homossexual.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Saúde do Homossexual.plist"; sourceTree = "<group>"; };
+		3F24AE0C1628D4CB00B3BCCC /* sexual info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "sexual info.plist"; sourceTree = "<group>"; };
+		3F24AE0D1628D4CB00B3BCCC /* sexual intro.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "sexual intro.plist"; sourceTree = "<group>"; };
+		3F24AE0F1628D4CB00B3BCCC /* Text1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Text1.plist; sourceTree = "<group>"; };
+		3F24AE101628D4CB00B3BCCC /* Text1a.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Text1a.plist; sourceTree = "<group>"; };
+		3F24AE111628D4CB00B3BCCC /* Text2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Text2.plist; sourceTree = "<group>"; };
+		3F24AE2F1628D52800B3BCCC /* Baixo Desejo Sexual Pictures Dictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Baixo Desejo Sexual Pictures Dictionary.plist"; sourceTree = "<group>"; };
+		3F24AE301628D52800B3BCCC /* Baixo Desejo Sexual.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Baixo Desejo Sexual.plist"; sourceTree = "<group>"; };
+		3F24AE621628DC2300B3BCCC /* Quest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quest.h; sourceTree = "<group>"; };
+		3F24AE631628DC2300B3BCCC /* Quest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quest.m; sourceTree = "<group>"; };
+		3F24AE6C1628EA4B00B3BCCC /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		3F3B00B3162E5AE4004CB690 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		3F3B00B4162E5AE4004CB690 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		3F4559D6162B6ECD00401EFD /* DRSIAPDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRSIAPDataSource.h; sourceTree = "<group>"; };
+		3F4559D7162B6ECD00401EFD /* DRSIAPDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRSIAPDataSource.m; sourceTree = "<group>"; };
+		3F4E0D061632213F00FD6621 /* DRSSaudeSexualIAPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRSSaudeSexualIAPHelper.h; sourceTree = "<group>"; };
+		3F4E0D071632213F00FD6621 /* DRSSaudeSexualIAPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRSSaudeSexualIAPHelper.m; sourceTree = "<group>"; };
+		3F4E0D081632213F00FD6621 /* IAPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAPHelper.h; sourceTree = "<group>"; };
+		3F4E0D091632213F00FD6621 /* IAPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAPHelper.m; sourceTree = "<group>"; };
+		3F4E0D101632242C00FD6621 /* Shopping-Cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shopping-Cart.png"; sourceTree = "<group>"; };
+		3F4E0D1B1632430B00FD6621 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		3F4E0D1C1632430B00FD6621 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		3F9EB1DD1629EFB300054118 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		3F9EB1DE1629EFB300054118 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		3F9EB1E01629F31500054118 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3FAC6D4D162CC1AB00109A1B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3FAC6D52162CC25900109A1B /* VerificationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerificationController.h; sourceTree = "<group>"; };
+		3FAC6D53162CC25900109A1B /* VerificationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerificationController.m; sourceTree = "<group>"; };
+		3FAC6D5B162CD05B00109A1B /* DRSContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRSContentController.h; sourceTree = "<group>"; };
+		3FAC6D5C162CD05B00109A1B /* DRSContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRSContentController.m; sourceTree = "<group>"; };
+		3FAC6D5F162CD34100109A1B /* EDITS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = EDITS; sourceTree = "<group>"; };
+		3FAC6D60162CD34100109A1B /* HSDD */ = {isa = PBXFileReference; lastKnownFileType = folder; path = HSDD; sourceTree = "<group>"; };
+		3FAC6D61162CD34100109A1B /* IIEF-5 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "IIEF-5"; sourceTree = "<group>"; };
+		3FAC6D62162CD34100109A1B /* IPE */ = {isa = PBXFileReference; lastKnownFileType = folder; path = IPE; sourceTree = "<group>"; };
+		3FAC6D63162CD34100109A1B /* OVP */ = {isa = PBXFileReference; lastKnownFileType = folder; path = OVP; sourceTree = "<group>"; };
+		3FAC6D64162CD34100109A1B /* QEQ */ = {isa = PBXFileReference; lastKnownFileType = folder; path = QEQ; sourceTree = "<group>"; };
+		3FAC6D65162CD34100109A1B /* SEAR */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SEAR; sourceTree = "<group>"; };
+		3FAC6D66162CD34100109A1B /* SQoL-M */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "SQoL-M"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F24AC481628ABDA00B3BCCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FAC6D4E162CC1AC00109A1B /* Security.framework in Frameworks */,
+				3F9EB1E11629F31600054118 /* SystemConfiguration.framework in Frameworks */,
+				3F24AE6D1628EA4B00B3BCCC /* StoreKit.framework in Frameworks */,
+				3F24AC541628ABDA00B3BCCC /* CoreGraphics.framework in Frameworks */,
+				3F24AC801628AFD800B3BCCC /* libz.dylib in Frameworks */,
+				3F24AC7E1628AFC800B3BCCC /* libsqlite3.dylib in Frameworks */,
+				3F24AC821628AFE500B3BCCC /* QuartzCore.framework in Frameworks */,
+				3F24AC841628AFF500B3BCCC /* CoreText.framework in Frameworks */,
+				3F24AC561628ABDA00B3BCCC /* CoreData.framework in Frameworks */,
+				3F24AC501628ABDA00B3BCCC /* UIKit.framework in Frameworks */,
+				3F24AC521628ABDA00B3BCCC /* Foundation.framework in Frameworks */,
+				3F24AD011628B4F200B3BCCC /* libCorePlot-CocoaTouch.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F24AC401628ABDA00B3BCCC = {
+			isa = PBXGroup;
+			children = (
+				3F4E0D1A163242D600FD6621 /* MBProgressHUD */,
+				3F24AD041628C1B600B3BCCC /* Localytics */,
+				3F24AD101628C25700B3BCCC /* AutoRate */,
+				3F24AD131628C29700B3BCCC /* CorePlot */,
+				3F24AC571628ABDA00B3BCCC /* SaudeSexual free */,
+				3F24AC4E1628ABDA00B3BCCC /* Frameworks */,
+				3F24AC4C1628ABDA00B3BCCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F24AC4C1628ABDA00B3BCCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F24AC4B1628ABDA00B3BCCC /* SaudeSexual free.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F24AC4E1628ABDA00B3BCCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FAC6D4D162CC1AB00109A1B /* Security.framework */,
+				3F9EB1E01629F31500054118 /* SystemConfiguration.framework */,
+				3F24AE6C1628EA4B00B3BCCC /* StoreKit.framework */,
+				3F24AD001628B4F200B3BCCC /* libCorePlot-CocoaTouch.a */,
+				3F24AC7F1628AFD800B3BCCC /* libz.dylib */,
+				3F24AC7D1628AFC800B3BCCC /* libsqlite3.dylib */,
+				3F24AC811628AFE500B3BCCC /* QuartzCore.framework */,
+				3F24AC831628AFF500B3BCCC /* CoreText.framework */,
+				3F24AC4F1628ABDA00B3BCCC /* UIKit.framework */,
+				3F24AC511628ABDA00B3BCCC /* Foundation.framework */,
+				3F24AC531628ABDA00B3BCCC /* CoreGraphics.framework */,
+				3F24AC551628ABDA00B3BCCC /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F24AC571628ABDA00B3BCCC /* SaudeSexual free */ = {
+			isa = PBXGroup;
+			children = (
+				3FAC6D45162CB96100109A1B /* Main */,
+				3F24AE651628DF4B00B3BCCC /* In App Purchase */,
+				3F24AD221628C59F00B3BCCC /* Model */,
+				3F24AD1D1628C48F00B3BCCC /* OHAttributedLabel */,
+				3F24AD141628C32F00B3BCCC /* Customized */,
+				3F24AC771628AD5400B3BCCC /* iPad */,
+				3F24AC761628AD4B00B3BCCC /* iPhone */,
+				3F24AC581628ABDA00B3BCCC /* Supporting Files */,
+			);
+			path = "SaudeSexual free";
+			sourceTree = "<group>";
+		};
+		3F24AC581628ABDA00B3BCCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F24AE331628D54B00B3BCCC /* backgrounds */,
+				3F24ADF41628D4BF00B3BCCC /* plist */,
+				3F24ADEE1628D2F700B3BCCC /* Icons */,
+				3F24AC7C1628AF8700B3BCCC /* Default */,
+				3F24AC751628ACE400B3BCCC /* pictures */,
+				3F24AC591628ABDA00B3BCCC /* SaudeSexual free-Info.plist */,
+				3F24AC5A1628ABDA00B3BCCC /* InfoPlist.strings */,
+				3F24AC5D1628ABDA00B3BCCC /* main.m */,
+				3F24AC5F1628ABDA00B3BCCC /* SaudeSexual free-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F24AC751628ACE400B3BCCC /* pictures */ = {
+			isa = PBXGroup;
+			children = (
+				3F1A7DAC16434E1D0003FD01 /* Unlocked.png */,
+				3F0DC8C21640BC6A008CC444 /* blank.png */,
+				3F13CABE1635CC0A0094EB65 /* Thumbs-Up.png */,
+				3F4E0D101632242C00FD6621 /* Shopping-Cart.png */,
+				3F24ADB01628D29000B3BCCC /* 117-todo.png */,
+				3F24ADAF1628D29000B3BCCC /* 96-book.png */,
+				3F24ADB11628D29000B3BCCC /* Alert.png */,
+				3F24AD831628D29000B3BCCC /* amielle.png */,
+				3F24ADAB1628D29000B3BCCC /* angiografia.jpg */,
+				3F24AD7B1628D29000B3BCCC /* anorgasmia mulher.png */,
+				3F24AD7E1628D29000B3BCCC /* baixo desejo mulher.001.png */,
+				3F24AD811628D29000B3BCCC /* baixo desejo mulher.002.png */,
+				3F24ADA71628D29000B3BCCC /* biotesiometria.jpg */,
+				3F24ADB21628D29000B3BCCC /* blueButton.png */,
+				3F24AD961628D29000B3BCCC /* cancro duro.jpg */,
+				3F24AD7D1628D29000B3BCCC /* causas fisicas1.png */,
+				3F24AD7C1628D29000B3BCCC /* causas fisicas2.png */,
+				3F24AD871628D29000B3BCCC /* cirrhosis.png */,
+				3F24AD9C1628D29000B3BCCC /* condiloma anal.png */,
+				3F24AD9E1628D29000B3BCCC /* condiloma gigante.png */,
+				3F24AD9D1628D29000B3BCCC /* condiloma vulvar.png */,
+				3F24AD9F1628D29000B3BCCC /* condiloma1.png */,
+				3F24AD821628D29000B3BCCC /* Cycle1.png */,
+				3F24AD841628D29000B3BCCC /* disseminated_candidiasis.png */,
+				3F24AD851628D29000B3BCCC /* disseminated_zoster.png */,
+				3F24AD7F1628D29000B3BCCC /* dor na penetracao.001.png */,
+				3F24AD801628D29000B3BCCC /* dor na penetracao.002.png */,
+				3F24ADAE1628D29000B3BCCC /* drsolution.png */,
+				3F24ADA61628D29000B3BCCC /* erecao1.jpg */,
+				3F24AD971628D29000B3BCCC /* espiroqueta.png */,
+				3F24AD9A1628D29000B3BCCC /* gonorreia colo uterino.png */,
+				3F24AD9B1628D29000B3BCCC /* gonorreia homem.png */,
+				3F24AD891628D29000B3BCCC /* hep_b_virus.png */,
+				3F24AD991628D29000B3BCCC /* herpes homem.png */,
+				3F24AD981628D29000B3BCCC /* herpes mulher.png */,
+				3F24ADA31628D29000B3BCCC /* injection testing.jpg */,
+				3F24AD861628D29000B3BCCC /* Kaposi and zoster.png */,
+				3F24AD881628D29000B3BCCC /* liver_tumour.png */,
+				3F24AD8A1628D29000B3BCCC /* Lymphogranuloma_venereum.png */,
+				3F24ADA01628D29000B3BCCC /* muse.jpg */,
+				3F24ADA11628D29000B3BCCC /* Penis anatomy.jpg */,
+				3F24ADA21628D29000B3BCCC /* penis arterial.jpg */,
+				3F24AD7A1628D29000B3BCCC /* prevalencia DE.png */,
+				3F24ADA91628D29000B3BCCC /* proper site of injection.jpg */,
+				3F24ADAA1628D29000B3BCCC /* protese 3 volumes.jpg */,
+				3F24ADAC1628D29000B3BCCC /* protese.jpg */,
+				3F24ADA81628D29000B3BCCC /* rigiscan.jpg */,
+				3F24AD951628D29000B3BCCC /* sifilis secundaria.png */,
+				3F24AD941628D29000B3BCCC /* sifilis terciaria.png */,
+				3F24ADA41628D29000B3BCCC /* torniquete.jpg */,
+				3F24ADAD1628D29000B3BCCC /* vacuo.jpg */,
+				3F24ADA51628D29000B3BCCC /* vacuo2.jpg */,
+				3F24ADB31628D29000B3BCCC /* whiteButton.png */,
+			);
+			name = pictures;
+			sourceTree = "<group>";
+		};
+		3F24AC761628AD4B00B3BCCC /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				3F24AD591628C88500B3BCCC /* DRSQuestTableViewController1_iPhone.h */,
+				3F24AD5A1628C88500B3BCCC /* DRSQuestTableViewController1_iPhone.m */,
+				3F24AD5B1628C88500B3BCCC /* DRSQuestTableViewController1_iPhone.xib */,
+				3F24AD531628C88500B3BCCC /* DRSQuestIntroViewController_iPhone.h */,
+				3F24AD541628C88500B3BCCC /* DRSQuestIntroViewController_iPhone.m */,
+				3F24AD551628C88500B3BCCC /* DRSQuestIntroViewController_iPhone.xib */,
+				3F24AD5C1628C88500B3BCCC /* DRSQuestTableViewController2_iPhone.h */,
+				3F24AD5D1628C88500B3BCCC /* DRSQuestTableViewController2_iPhone.m */,
+				3F24AD5E1628C88500B3BCCC /* DRSQuestTableViewController2_iPhone.xib */,
+				3F24AD4D1628C88500B3BCCC /* DRSPontTableViewController2_iPhone.h */,
+				3F24AD4E1628C88500B3BCCC /* DRSPontTableViewController2_iPhone.m */,
+				3F24AD681628C8D400B3BCCC /* DRSBarGraphViewController.h */,
+				3F24AD691628C8D400B3BCCC /* DRSBarGraphViewController.m */,
+				3F24AD6A1628C8D400B3BCCC /* DRSBarGraphViewController.xib */,
+				3F24AD6B1628C8D400B3BCCC /* DRSBarResultViewController.h */,
+				3F24AD6C1628C8D400B3BCCC /* DRSBarResultViewController.m */,
+				3F24AD6D1628C92800B3BCCC /* DRSInfoTableViewController_iPhone.h */,
+				3F24AD6E1628C92800B3BCCC /* DRSInfoTableViewController_iPhone.m */,
+				3F24AD6F1628C92800B3BCCC /* DRSInfoTableViewController_iPhone.xib */,
+				3F24AD701628C94F00B3BCCC /* DRSPictureViewController_iPhone.h */,
+				3F24AD711628C94F00B3BCCC /* DRSPictureViewController_iPhone.m */,
+				3F24AD721628C94F00B3BCCC /* DRSPictureViewController_iPhone.xib */,
+				3F24AD4F1628C88500B3BCCC /* DRSPontTableViewController2_iPhone.xib */,
+				3F24AD4A1628C88500B3BCCC /* DRSPontTableViewController_iPhone.h */,
+				3F24AD4B1628C88500B3BCCC /* DRSPontTableViewController_iPhone.m */,
+				3F24AD4C1628C88500B3BCCC /* DRSPontTableViewController_iPhone.xib */,
+				3F24AD5F1628C88500B3BCCC /* DRSTextTableViewController1_iPhone.h */,
+				3F24AD601628C88500B3BCCC /* DRSTextTableViewController1_iPhone.m */,
+				3F24AD611628C88500B3BCCC /* DRSTextTableViewController1_iPhone.xib */,
+				3F24AD621628C88500B3BCCC /* DRSTextTableViewController2_iPhone.h */,
+				3F24AD631628C88500B3BCCC /* DRSTextTableViewController2_iPhone.m */,
+				3F24AD641628C88500B3BCCC /* DRSTextTableViewController2_iPhone.xib */,
+				3F24AD651628C88500B3BCCC /* DRSTextTableViewController3_iPhone.h */,
+				3F24AD661628C88500B3BCCC /* DRSTextTableViewController3_iPhone.m */,
+				3F24AD671628C88500B3BCCC /* DRSTextTableViewController3_iPhone.xib */,
+				3F24AD731628CA4800B3BCCC /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		3F24AC771628AD5400B3BCCC /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				3F24AD3D1628C77700B3BCCC /* DRSQuestTableViewController1_iPad.h */,
+				3F24AD3E1628C77700B3BCCC /* DRSQuestTableViewController1_iPad.m */,
+				3F24AD3F1628C77700B3BCCC /* DRSQuestTableViewController1_iPad.xib */,
+				3F24AD3A1628C77700B3BCCC /* DRSQuestIntroViewController_iPad.h */,
+				3F24AD3B1628C77700B3BCCC /* DRSQuestIntroViewController_iPad.m */,
+				3F24AD3C1628C77700B3BCCC /* DRSQuestIntroViewController_iPad.xib */,
+				3F24AD2D1628C77700B3BCCC /* DRSBarGraphViewController_iPad.xib */,
+				3F24AD2B1628C77700B3BCCC /* DRSBarGraphViewController_iPad.h */,
+				3F24AD2C1628C77700B3BCCC /* DRSBarGraphViewController_iPad.m */,
+				3F24AD2E1628C77700B3BCCC /* DRSBarResultViewController_iPad.h */,
+				3F24AD2F1628C77700B3BCCC /* DRSBarResultViewController_iPad.m */,
+				3F24AD301628C77700B3BCCC /* DRSInfoTableViewController_iPad.h */,
+				3F24AD311628C77700B3BCCC /* DRSInfoTableViewController_iPad.m */,
+				3F24AD321628C77700B3BCCC /* DRSInfoTableViewController_iPad.xib */,
+				3F24AD331628C77700B3BCCC /* DRSPictureViewController_iPad.h */,
+				3F24AD341628C77700B3BCCC /* DRSPictureViewController_iPad.m */,
+				3F24AD351628C77700B3BCCC /* DRSPictureViewController_iPad.xib */,
+				3F24AD361628C77700B3BCCC /* DRSPontTableViewController_iPad.h */,
+				3F24AD371628C77700B3BCCC /* DRSPontTableViewController_iPad.m */,
+				3F24AD381628C77700B3BCCC /* DRSPontTableViewController2_iPad.h */,
+				3F24AD391628C77700B3BCCC /* DRSPontTableViewController2_iPad.m */,
+				3F24AD401628C77700B3BCCC /* DRSQuestTableViewController2_iPad.h */,
+				3F24AD411628C77700B3BCCC /* DRSQuestTableViewController2_iPad.m */,
+				3F24AD421628C77700B3BCCC /* DRSQuestTableViewController2_iPad.xib */,
+				3F24AD431628C77700B3BCCC /* DRSTextTableViewController1_iPad.h */,
+				3F24AD441628C77700B3BCCC /* DRSTextTableViewController1_iPad.m */,
+				3F24AD451628C77700B3BCCC /* DRSTextTableViewController1_iPad.xib */,
+				3F24AD461628C77700B3BCCC /* DRSTextTableViewController3_iPad.h */,
+				3F24AD471628C77700B3BCCC /* DRSTextTableViewController3_iPad.m */,
+				3F24AD481628C77700B3BCCC /* DRSTextTableViewController3_iPad.xib */,
+				3F24AD491628C77700B3BCCC /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		3F24AC7C1628AF8700B3BCCC /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				3F24AD021628C12A00B3BCCC /* Default-568h@2x.png */,
+				3F24AC7A1628AF1400B3BCCC /* Default-Landscape@2x~ipad.png */,
+				3F24AC781628AEFD00B3BCCC /* Default-Landscape~ipad.png */,
+				3F24AC731628ACAD00B3BCCC /* Default@2x.png */,
+				3F24AC711628AC7D00B3BCCC /* Default.png */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		3F24AC9B1628B41200B3BCCC /* CorePlotHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				3F24AC9C1628B41200B3BCCC /* _CPTConstraintsFixed.h */,
+				3F24AC9D1628B41200B3BCCC /* _CPTConstraintsRelative.h */,
+				3F24AC9E1628B41200B3BCCC /* _CPTDarkGradientTheme.h */,
+				3F24AC9F1628B41200B3BCCC /* _CPTFillColor.h */,
+				3F24ACA01628B41200B3BCCC /* _CPTFillGradient.h */,
+				3F24ACA11628B41200B3BCCC /* _CPTFillImage.h */,
+				3F24ACA21628B41200B3BCCC /* _CPTPlainBlackTheme.h */,
+				3F24ACA31628B41200B3BCCC /* _CPTPlainWhiteTheme.h */,
+				3F24ACA41628B41200B3BCCC /* _CPTSlateTheme.h */,
+				3F24ACA51628B41200B3BCCC /* _CPTStocksTheme.h */,
+				3F24ACA61628B41200B3BCCC /* _CPTXYTheme.h */,
+				3F24ACA71628B41200B3BCCC /* CorePlot-CocoaTouch.h */,
+				3F24ACA81628B41200B3BCCC /* CPTAnnotation.h */,
+				3F24ACA91628B41200B3BCCC /* CPTAnnotationHostLayer.h */,
+				3F24ACAA1628B41200B3BCCC /* CPTAxis.h */,
+				3F24ACAB1628B41200B3BCCC /* CPTAxisLabel.h */,
+				3F24ACAC1628B41200B3BCCC /* CPTAxisLabelGroup.h */,
+				3F24ACAD1628B41200B3BCCC /* CPTAxisSet.h */,
+				3F24ACAE1628B41200B3BCCC /* CPTAxisTitle.h */,
+				3F24ACAF1628B41200B3BCCC /* CPTBarPlot.h */,
+				3F24ACB01628B41200B3BCCC /* CPTBorderedLayer.h */,
+				3F24ACB11628B41200B3BCCC /* CPTColor.h */,
+				3F24ACB21628B41200B3BCCC /* CPTColorSpace.h */,
+				3F24ACB31628B41200B3BCCC /* CPTConstraints.h */,
+				3F24ACB41628B41200B3BCCC /* CPTDefinitions.h */,
+				3F24ACB51628B41200B3BCCC /* CPTExceptions.h */,
+				3F24ACB61628B41200B3BCCC /* CPTFill.h */,
+				3F24ACB71628B41200B3BCCC /* CPTGradient.h */,
+				3F24ACB81628B41200B3BCCC /* CPTGraph.h */,
+				3F24ACB91628B41200B3BCCC /* CPTGraphHostingView.h */,
+				3F24ACBA1628B41200B3BCCC /* CPTGridLineGroup.h */,
+				3F24ACBB1628B41200B3BCCC /* CPTGridLines.h */,
+				3F24ACBC1628B41200B3BCCC /* CPTImage.h */,
+				3F24ACBD1628B41200B3BCCC /* CPTLayer.h */,
+				3F24ACBE1628B41200B3BCCC /* CPTLayerAnnotation.h */,
+				3F24ACBF1628B41200B3BCCC /* CPTLegend.h */,
+				3F24ACC01628B41200B3BCCC /* CPTLegendEntry.h */,
+				3F24ACC11628B41200B3BCCC /* CPTLimitBand.h */,
+				3F24ACC21628B41200B3BCCC /* CPTLineCap.h */,
+				3F24ACC31628B41200B3BCCC /* CPTLineStyle.h */,
+				3F24ACC41628B41200B3BCCC /* CPTMutableLineStyle.h */,
+				3F24ACC51628B41200B3BCCC /* CPTMutableNumericData+TypeConversion.h */,
+				3F24ACC61628B41200B3BCCC /* CPTMutableNumericData.h */,
+				3F24ACC71628B41200B3BCCC /* CPTMutablePlotRange.h */,
+				3F24ACC81628B41200B3BCCC /* CPTMutableShadow.h */,
+				3F24ACC91628B41200B3BCCC /* CPTMutableTextStyle.h */,
+				3F24ACCA1628B41200B3BCCC /* CPTNumericData+TypeConversion.h */,
+				3F24ACCB1628B41200B3BCCC /* CPTNumericData.h */,
+				3F24ACCC1628B41200B3BCCC /* CPTNumericDataType.h */,
+				3F24ACCD1628B41200B3BCCC /* CPTPathExtensions.h */,
+				3F24ACCE1628B41200B3BCCC /* CPTPieChart.h */,
+				3F24ACCF1628B41200B3BCCC /* CPTPlatformSpecificCategories.h */,
+				3F24ACD01628B41200B3BCCC /* CPTPlatformSpecificDefines.h */,
+				3F24ACD11628B41200B3BCCC /* CPTPlatformSpecificFunctions.h */,
+				3F24ACD21628B41200B3BCCC /* CPTPlot.h */,
+				3F24ACD31628B41200B3BCCC /* CPTPlotArea.h */,
+				3F24ACD41628B41200B3BCCC /* CPTPlotAreaFrame.h */,
+				3F24ACD51628B41200B3BCCC /* CPTPlotGroup.h */,
+				3F24ACD61628B41200B3BCCC /* CPTPlotRange.h */,
+				3F24ACD71628B41200B3BCCC /* CPTPlotSpace.h */,
+				3F24ACD81628B41200B3BCCC /* CPTPlotSpaceAnnotation.h */,
+				3F24ACD91628B41200B3BCCC /* CPTPlotSymbol.h */,
+				3F24ACDA1628B41200B3BCCC /* CPTRangePlot.h */,
+				3F24ACDB1628B41200B3BCCC /* CPTResponder.h */,
+				3F24ACDC1628B41200B3BCCC /* CPTScatterPlot.h */,
+				3F24ACDD1628B41200B3BCCC /* CPTShadow.h */,
+				3F24ACDE1628B41200B3BCCC /* CPTTextLayer.h */,
+				3F24ACDF1628B41200B3BCCC /* CPTTextStyle.h */,
+				3F24ACE01628B41200B3BCCC /* CPTTheme.h */,
+				3F24ACE11628B41200B3BCCC /* CPTTimeFormatter.h */,
+				3F24ACE21628B41200B3BCCC /* CPTTradingRangePlot.h */,
+				3F24ACE31628B41200B3BCCC /* CPTUtilities.h */,
+				3F24ACE41628B41200B3BCCC /* CPTXYAxis.h */,
+				3F24ACE51628B41200B3BCCC /* CPTXYAxisSet.h */,
+				3F24ACE61628B41200B3BCCC /* CPTXYGraph.h */,
+				3F24ACE71628B41200B3BCCC /* CPTXYPlotSpace.h */,
+				3F24ACE81628B41200B3BCCC /* NSCoderExtensions.h */,
+				3F24ACE91628B41200B3BCCC /* NSDecimalNumberExtensions.h */,
+				3F24ACEA1628B41200B3BCCC /* NSNumberExtensions.h */,
+			);
+			path = CorePlotHeaders;
+			sourceTree = "<group>";
+		};
+		3F24AD041628C1B600B3BCCC /* Localytics */ = {
+			isa = PBXGroup;
+			children = (
+				3F24AD051628C20000B3BCCC /* src */,
+			);
+			name = Localytics;
+			path = "SaudeSexual free";
+			sourceTree = "<group>";
+		};
+		3F24AD051628C20000B3BCCC /* src */ = {
+			isa = PBXGroup;
+			children = (
+				3F24AD061628C20000B3BCCC /* LocalyticsDatabase.h */,
+				3F24AD071628C20000B3BCCC /* LocalyticsDatabase.m */,
+				3F24AD081628C20000B3BCCC /* LocalyticsSession.h */,
+				3F24AD091628C20000B3BCCC /* LocalyticsSession.m */,
+				3F24AD0A1628C20000B3BCCC /* LocalyticsUploader.h */,
+				3F24AD0B1628C20000B3BCCC /* LocalyticsUploader.m */,
+				3F24AD0C1628C20000B3BCCC /* WebserviceConstants.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		3F24AD101628C25700B3BCCC /* AutoRate */ = {
+			isa = PBXGroup;
+			children = (
+				3F24AD111628C26B00B3BCCC /* RateSuggestService.h */,
+				3F24AD121628C26B00B3BCCC /* RateSuggestService.m */,
+			);
+			name = AutoRate;
+			path = "SaudeSexual free";
+			sourceTree = "<group>";
+		};
+		3F24AD131628C29700B3BCCC /* CorePlot */ = {
+			isa = PBXGroup;
+			children = (
+				3F24AC9B1628B41200B3BCCC /* CorePlotHeaders */,
+			);
+			name = CorePlot;
+			path = "SaudeSexual free";
+			sourceTree = "<group>";
+		};
+		3F24AD141628C32F00B3BCCC /* Customized */ = {
+			isa = PBXGroup;
+			children = (
+				3F24AD151628C37C00B3BCCC /* DRSAttributedTableView.h */,
+				3F24AD181628C3F800B3BCCC /* DEPictureTableViewCell.h */,
+				3F24AD191628C42D00B3BCCC /* DEPictureTableViewCell.m */,
+				3F24AD161628C3B900B3BCCC /* DEPictureTableViewCell.xib */,
+				3F24AD1B1628C45E00B3BCCC /* DETableViewCell.h */,
+				3F24AD1C1628C45E00B3BCCC /* DETableViewCell.m */,
+				3F13CAB91635AC6D0094EB65 /* DRSStoreCell.h */,
+				3F13CABA1635AC6D0094EB65 /* DRSStoreCell.m */,
+				3F13CABC1635ACEE0094EB65 /* DRSStoreCell.xib */,
+			);
+			name = Customized;
+			sourceTree = "<group>";
+		};
+		3F24AD1D1628C48F00B3BCCC /* OHAttributedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				3F24AD211628C55400B3BCCC /* NSAttributedString+Attributes.h */,
+				3F24AD1E1628C4F500B3BCCC /* NSAttributedString+Attributes.m */,
+				3F24AD1F1628C4F500B3BCCC /* OHAttributedLabel.h */,
+				3F24AD201628C4F500B3BCCC /* OHAttributedLabel.m */,
+			);
+			name = OHAttributedLabel;
+			sourceTree = "<group>";
+		};
+		3F24AD221628C59F00B3BCCC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3FAC6D5B162CD05B00109A1B /* DRSContentController.h */,
+				3FAC6D5C162CD05B00109A1B /* DRSContentController.m */,
+				3F24AC691628ABDB00B3BCCC /* SaudeSexual_free.xcdatamodeld */,
+				3F24AE621628DC2300B3BCCC /* Quest.h */,
+				3F24AE631628DC2300B3BCCC /* Quest.m */,
+				3F24AD251628C65800B3BCCC /* AppModel.h */,
+				3F24AD261628C65800B3BCCC /* AppModel.m */,
+				3F24AD271628C6D100B3BCCC /* DRSQuestionnaire.h */,
+				3F24AD281628C6D100B3BCCC /* DRSQuestionnaire.m */,
+				3F24AD291628C6F600B3BCCC /* TextLevel1.h */,
+				3F24AD2A1628C6F600B3BCCC /* TextLevel1.m */,
+				3F4559D6162B6ECD00401EFD /* DRSIAPDataSource.h */,
+				3F4559D7162B6ECD00401EFD /* DRSIAPDataSource.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3F24ADEE1628D2F700B3BCCC /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				3F24AD901628D29000B3BCCC /* Icon-72.png */,
+				3F24AD8D1628D29000B3BCCC /* Icon-Small-50.png */,
+				3F24AD8F1628D29000B3BCCC /* Icon-Small.png */,
+				3F24AD8E1628D29000B3BCCC /* Icon-Small@2x.png */,
+				3F24AD921628D29000B3BCCC /* Icon.png */,
+				3F24AD911628D29000B3BCCC /* Icon@2x.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		3F24ADF41628D4BF00B3BCCC /* plist */ = {
+			isa = PBXGroup;
+			children = (
+				3FAC6D5E162CD29200109A1B /* plists bloqueados */,
+				3F24AE2F1628D52800B3BCCC /* Baixo Desejo Sexual Pictures Dictionary.plist */,
+				3F1A7DAE164353840003FD01 /* OVP.plist */,
+				3F24AE301628D52800B3BCCC /* Baixo Desejo Sexual.plist */,
+				3F24ADF51628D4CB00B3BCCC /* DST Pictures Dictionary.plist */,
+				3F24ADF61628D4CB00B3BCCC /* DST.plist */,
+				3F24ADF81628D4CB00B3BCCC /* Ejaculação Precoce Pictures Dictionary.plist */,
+				3F24ADF91628D4CB00B3BCCC /* Ejaculação Precoce.plist */,
+				3F24ADFA1628D4CB00B3BCCC /* Ejaculação Retardada Pictures Dictionary.plist */,
+				3F24ADFB1628D4CB00B3BCCC /* Ejaculação Retardada.plist */,
+				3F24ADFE1628D4CB00B3BCCC /* Impotência Sexual Pictures Dictionary.plist */,
+				3F24ADFF1628D4CB00B3BCCC /* Impotência Sexual.plist */,
+				3F24AE001628D4CB00B3BCCC /* Intro Questionários.plist */,
+				3F24AE021628D4CB00B3BCCC /* Nomes Questionários 2.plist */,
+				3F24AE031628D4CB00B3BCCC /* Nomes Questionários.plist */,
+				3F1DBBA3163F56E200D72129 /* productsID Dictionary.plist */,
+				3F2460EA16480B4500A3E1CE /* productsID Dictionary 2.plist */,
+				3F24AE061628D4CB00B3BCCC /* Questionários.plist */,
+				3F24AE071628D4CB00B3BCCC /* Resultados.plist */,
+				3F24AE081628D4CB00B3BCCC /* Saúde da Mulher Pictures Dictionary.plist */,
+				3F24AE091628D4CB00B3BCCC /* Saúde da Mulher.plist */,
+				3F24AE0A1628D4CB00B3BCCC /* Saúde do Homossexual.plist */,
+				3F24AE0C1628D4CB00B3BCCC /* sexual info.plist */,
+				3F24AE0D1628D4CB00B3BCCC /* sexual intro.plist */,
+				3F24AE0F1628D4CB00B3BCCC /* Text1.plist */,
+				3F24AE101628D4CB00B3BCCC /* Text1a.plist */,
+				3F24AE111628D4CB00B3BCCC /* Text2.plist */,
+			);
+			name = plist;
+			sourceTree = "<group>";
+		};
+		3F24AE331628D54B00B3BCCC /* backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				3F24AD8B1628D29000B3BCCC /* background.png */,
+			);
+			name = backgrounds;
+			sourceTree = "<group>";
+		};
+		3F24AE651628DF4B00B3BCCC /* In App Purchase */ = {
+			isa = PBXGroup;
+			children = (
+				3F4E0D061632213F00FD6621 /* DRSSaudeSexualIAPHelper.h */,
+				3F4E0D071632213F00FD6621 /* DRSSaudeSexualIAPHelper.m */,
+				3F4E0D081632213F00FD6621 /* IAPHelper.h */,
+				3F4E0D091632213F00FD6621 /* IAPHelper.m */,
+				3F3B00B2162E5AE4004CB690 /* Base64 */,
+				3FAC6D51162CC25900109A1B /* VerificationController */,
+				3F9EB1DD1629EFB300054118 /* Reachability.h */,
+				3F9EB1DE1629EFB300054118 /* Reachability.m */,
+			);
+			name = "In App Purchase";
+			sourceTree = "<group>";
+		};
+		3F3B00B2162E5AE4004CB690 /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				3F3B00B3162E5AE4004CB690 /* NSData+Base64.h */,
+				3F3B00B4162E5AE4004CB690 /* NSData+Base64.m */,
+			);
+			path = Base64;
+			sourceTree = "<group>";
+		};
+		3F4E0D1A163242D600FD6621 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				3F4E0D1B1632430B00FD6621 /* MBProgressHUD.h */,
+				3F4E0D1C1632430B00FD6621 /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		3FAC6D45162CB96100109A1B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3F24AC601628ABDB00B3BCCC /* DRSAppDelegate.h */,
+				3F24AC611628ABDB00B3BCCC /* DRSAppDelegate.m */,
+			);
+			name = Main;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3FAC6D51162CC25900109A1B /* VerificationController */ = {
+			isa = PBXGroup;
+			children = (
+				3FAC6D52162CC25900109A1B /* VerificationController.h */,
+				3FAC6D53162CC25900109A1B /* VerificationController.m */,
+			);
+			path = VerificationController;
+			sourceTree = "<group>";
+		};
+		3FAC6D5E162CD29200109A1B /* plists bloqueados */ = {
+			isa = PBXGroup;
+			children = (
+				3FAC6D5F162CD34100109A1B /* EDITS */,
+				3FAC6D60162CD34100109A1B /* HSDD */,
+				3FAC6D61162CD34100109A1B /* IIEF-5 */,
+				3FAC6D62162CD34100109A1B /* IPE */,
+				3FAC6D63162CD34100109A1B /* OVP */,
+				3FAC6D64162CD34100109A1B /* QEQ */,
+				3FAC6D65162CD34100109A1B /* SEAR */,
+				3FAC6D66162CD34100109A1B /* SQoL-M */,
+			);
+			name = "plists bloqueados";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F24AC4A1628ABDA00B3BCCC /* SaudeSexual free */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F24AC6E1628ABDB00B3BCCC /* Build configuration list for PBXNativeTarget "SaudeSexual free" */;
+			buildPhases = (
+				3F24AC471628ABDA00B3BCCC /* Sources */,
+				3F24AC481628ABDA00B3BCCC /* Frameworks */,
+				3F24AC491628ABDA00B3BCCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SaudeSexual free";
+			productName = "SaudeSexual free";
+			productReference = 3F24AC4B1628ABDA00B3BCCC /* SaudeSexual free.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F24AC421628ABDA00B3BCCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DRS;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = DrSolution;
+			};
+			buildConfigurationList = 3F24AC451628ABDA00B3BCCC /* Build configuration list for PBXProject "SaudeSexual free" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F24AC401628ABDA00B3BCCC;
+			productRefGroup = 3F24AC4C1628ABDA00B3BCCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F24AC4A1628ABDA00B3BCCC /* SaudeSexual free */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F24AC491628ABDA00B3BCCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F24AC5C1628ABDA00B3BCCC /* InfoPlist.strings in Resources */,
+				3F24AC791628AEFD00B3BCCC /* Default-Landscape~ipad.png in Resources */,
+				3F24AC7B1628AF1400B3BCCC /* Default-Landscape@2x~ipad.png in Resources */,
+				3F24AD031628C12A00B3BCCC /* Default-568h@2x.png in Resources */,
+				3F24AD171628C3B900B3BCCC /* DEPictureTableViewCell.xib in Resources */,
+				3F24ADB41628D29000B3BCCC /* prevalencia DE.png in Resources */,
+				3F24ADB51628D29000B3BCCC /* anorgasmia mulher.png in Resources */,
+				3F24ADB61628D29000B3BCCC /* causas fisicas2.png in Resources */,
+				3F24ADB71628D29000B3BCCC /* causas fisicas1.png in Resources */,
+				3F24ADB81628D29000B3BCCC /* baixo desejo mulher.001.png in Resources */,
+				3F24ADB91628D29000B3BCCC /* dor na penetracao.001.png in Resources */,
+				3F24ADBA1628D29000B3BCCC /* dor na penetracao.002.png in Resources */,
+				3F24ADBB1628D29000B3BCCC /* baixo desejo mulher.002.png in Resources */,
+				3F24ADBC1628D29000B3BCCC /* Cycle1.png in Resources */,
+				3F24ADBD1628D29000B3BCCC /* amielle.png in Resources */,
+				3F24ADBE1628D29000B3BCCC /* disseminated_candidiasis.png in Resources */,
+				3F24ADBF1628D29000B3BCCC /* disseminated_zoster.png in Resources */,
+				3F24ADC01628D29000B3BCCC /* Kaposi and zoster.png in Resources */,
+				3F24ADC11628D29000B3BCCC /* cirrhosis.png in Resources */,
+				3F24ADC21628D29000B3BCCC /* liver_tumour.png in Resources */,
+				3F24ADC31628D29000B3BCCC /* hep_b_virus.png in Resources */,
+				3F24ADC41628D29000B3BCCC /* Lymphogranuloma_venereum.png in Resources */,
+				3F24ADC51628D29000B3BCCC /* background.png in Resources */,
+				3F24ADC71628D29000B3BCCC /* Icon-Small-50.png in Resources */,
+				3F24ADC81628D29000B3BCCC /* Icon-Small@2x.png in Resources */,
+				3F24ADC91628D29000B3BCCC /* Icon-Small.png in Resources */,
+				3F24ADCA1628D29000B3BCCC /* Icon-72.png in Resources */,
+				3F24ADCB1628D29000B3BCCC /* Icon@2x.png in Resources */,
+				3F24ADCC1628D29000B3BCCC /* Icon.png in Resources */,
+				3F24ADCE1628D29000B3BCCC /* sifilis terciaria.png in Resources */,
+				3F24ADCF1628D29000B3BCCC /* sifilis secundaria.png in Resources */,
+				3F24ADD01628D29000B3BCCC /* cancro duro.jpg in Resources */,
+				3F24ADD11628D29000B3BCCC /* espiroqueta.png in Resources */,
+				3F24ADD21628D29000B3BCCC /* herpes mulher.png in Resources */,
+				3F24ADD31628D29000B3BCCC /* herpes homem.png in Resources */,
+				3F24ADD41628D29000B3BCCC /* gonorreia colo uterino.png in Resources */,
+				3F24ADD51628D29000B3BCCC /* gonorreia homem.png in Resources */,
+				3F24ADD61628D29000B3BCCC /* condiloma anal.png in Resources */,
+				3F24ADD71628D29000B3BCCC /* condiloma vulvar.png in Resources */,
+				3F24ADD81628D29000B3BCCC /* condiloma gigante.png in Resources */,
+				3F24ADD91628D29000B3BCCC /* condiloma1.png in Resources */,
+				3F24ADDA1628D29000B3BCCC /* muse.jpg in Resources */,
+				3F24ADDB1628D29000B3BCCC /* Penis anatomy.jpg in Resources */,
+				3F24ADDC1628D29000B3BCCC /* penis arterial.jpg in Resources */,
+				3F24ADDD1628D29000B3BCCC /* injection testing.jpg in Resources */,
+				3F24ADDE1628D29000B3BCCC /* torniquete.jpg in Resources */,
+				3F24ADDF1628D29000B3BCCC /* vacuo2.jpg in Resources */,
+				3F24ADE01628D29000B3BCCC /* erecao1.jpg in Resources */,
+				3F24ADE11628D29000B3BCCC /* biotesiometria.jpg in Resources */,
+				3F24ADE21628D29000B3BCCC /* rigiscan.jpg in Resources */,
+				3F24ADE31628D29000B3BCCC /* proper site of injection.jpg in Resources */,
+				3F24ADE41628D29000B3BCCC /* protese 3 volumes.jpg in Resources */,
+				3F24ADE51628D29000B3BCCC /* angiografia.jpg in Resources */,
+				3F24ADE61628D29000B3BCCC /* protese.jpg in Resources */,
+				3F24ADE71628D29000B3BCCC /* vacuo.jpg in Resources */,
+				3F24ADE81628D29000B3BCCC /* drsolution.png in Resources */,
+				3F24ADE91628D29000B3BCCC /* 96-book.png in Resources */,
+				3F24ADEA1628D29000B3BCCC /* 117-todo.png in Resources */,
+				3F24ADEB1628D29000B3BCCC /* Alert.png in Resources */,
+				3F24ADEC1628D29000B3BCCC /* blueButton.png in Resources */,
+				3F24ADED1628D29000B3BCCC /* whiteButton.png in Resources */,
+				3F24AE121628D4CB00B3BCCC /* DST Pictures Dictionary.plist in Resources */,
+				3F24AE131628D4CB00B3BCCC /* DST.plist in Resources */,
+				3F24AE151628D4CB00B3BCCC /* Ejaculação Precoce Pictures Dictionary.plist in Resources */,
+				3F24AE161628D4CB00B3BCCC /* Ejaculação Precoce.plist in Resources */,
+				3F24AE171628D4CB00B3BCCC /* Ejaculação Retardada Pictures Dictionary.plist in Resources */,
+				3F24AE181628D4CB00B3BCCC /* Ejaculação Retardada.plist in Resources */,
+				3F24AE1B1628D4CB00B3BCCC /* Impotência Sexual Pictures Dictionary.plist in Resources */,
+				3F24AE1C1628D4CB00B3BCCC /* Impotência Sexual.plist in Resources */,
+				3F24AE1D1628D4CB00B3BCCC /* Intro Questionários.plist in Resources */,
+				3F24AE1F1628D4CB00B3BCCC /* Nomes Questionários 2.plist in Resources */,
+				3F24AE201628D4CB00B3BCCC /* Nomes Questionários.plist in Resources */,
+				3F24AE231628D4CB00B3BCCC /* Questionários.plist in Resources */,
+				3F24AE241628D4CB00B3BCCC /* Resultados.plist in Resources */,
+				3F24AE251628D4CB00B3BCCC /* Saúde da Mulher Pictures Dictionary.plist in Resources */,
+				3F24AE261628D4CB00B3BCCC /* Saúde da Mulher.plist in Resources */,
+				3F24AE271628D4CB00B3BCCC /* Saúde do Homossexual.plist in Resources */,
+				3F24AE291628D4CB00B3BCCC /* sexual info.plist in Resources */,
+				3F24AE2A1628D4CB00B3BCCC /* sexual intro.plist in Resources */,
+				3F24AE2C1628D4CB00B3BCCC /* Text1.plist in Resources */,
+				3F24AE2D1628D4CB00B3BCCC /* Text1a.plist in Resources */,
+				3F24AE2E1628D4CB00B3BCCC /* Text2.plist in Resources */,
+				3F24AE311628D52800B3BCCC /* Baixo Desejo Sexual Pictures Dictionary.plist in Resources */,
+				3F24AE321628D52800B3BCCC /* Baixo Desejo Sexual.plist in Resources */,
+				3F24AE341628D6D500B3BCCC /* DRSTextTableViewController1_iPhone.xib in Resources */,
+				3F24AE351628D6DA00B3BCCC /* DRSTextTableViewController2_iPhone.xib in Resources */,
+				3F24AE361628D6DD00B3BCCC /* DRSTextTableViewController3_iPhone.xib in Resources */,
+				3F24AE371628D6E300B3BCCC /* DRSQuestTableViewController2_iPhone.xib in Resources */,
+				3F24AE381628D6E600B3BCCC /* DRSQuestTableViewController1_iPhone.xib in Resources */,
+				3F24AE391628D6E900B3BCCC /* DRSQuestIntroViewController_iPhone.xib in Resources */,
+				3F24AE3A1628D6EC00B3BCCC /* DRSPontTableViewController_iPhone.xib in Resources */,
+				3F24AE3B1628D6EF00B3BCCC /* DRSPontTableViewController2_iPhone.xib in Resources */,
+				3F24AE3C1628D6F200B3BCCC /* DRSPictureViewController_iPhone.xib in Resources */,
+				3F24AE3D1628D6F700B3BCCC /* DRSInfoTableViewController_iPhone.xib in Resources */,
+				3F24AE3E1628D6FB00B3BCCC /* DRSBarGraphViewController.xib in Resources */,
+				3F24AE3F1628D6FF00B3BCCC /* DRSBarGraphViewController_iPad.xib in Resources */,
+				3F24AE401628D70400B3BCCC /* DRSInfoTableViewController_iPad.xib in Resources */,
+				3F24AE411628D70800B3BCCC /* DRSPictureViewController_iPad.xib in Resources */,
+				3F24AE421628D70D00B3BCCC /* DRSQuestIntroViewController_iPad.xib in Resources */,
+				3F24AE431628D71100B3BCCC /* DRSQuestTableViewController1_iPad.xib in Resources */,
+				3F24AE441628D71400B3BCCC /* DRSQuestTableViewController2_iPad.xib in Resources */,
+				3F24AE451628D71700B3BCCC /* DRSTextTableViewController1_iPad.xib in Resources */,
+				3F24AE461628D71A00B3BCCC /* DRSTextTableViewController3_iPad.xib in Resources */,
+				3FAC6D67162CD34100109A1B /* EDITS in Resources */,
+				3FAC6D68162CD34100109A1B /* HSDD in Resources */,
+				3FAC6D69162CD34100109A1B /* IIEF-5 in Resources */,
+				3FAC6D6A162CD34100109A1B /* IPE in Resources */,
+				3FAC6D6B162CD34100109A1B /* OVP in Resources */,
+				3FAC6D6C162CD34100109A1B /* QEQ in Resources */,
+				3FAC6D6D162CD34100109A1B /* SEAR in Resources */,
+				3FAC6D6E162CD34100109A1B /* SQoL-M in Resources */,
+				3F4E0D111632242C00FD6621 /* Shopping-Cart.png in Resources */,
+				3F13CABD1635ACEE0094EB65 /* DRSStoreCell.xib in Resources */,
+				3F13CABF1635CC0A0094EB65 /* Thumbs-Up.png in Resources */,
+				3F9ABC7E16399CF300D25273 /* MainWindow_iPad.xib in Resources */,
+				3F1DBBA4163F56E200D72129 /* productsID Dictionary.plist in Resources */,
+				3F0DC8AE1640929D008CC444 /* MainWindow_iPhone.xib in Resources */,
+				3F0DC8C31640BC6A008CC444 /* blank.png in Resources */,
+				3F1A7DA6164306890003FD01 /* Default.png in Resources */,
+				3F1A7DA7164306910003FD01 /* Default@2x.png in Resources */,
+				3F1A7DAD16434E1D0003FD01 /* Unlocked.png in Resources */,
+				3F1A7DAF164353840003FD01 /* OVP.plist in Resources */,
+				3F2460EB16480B4500A3E1CE /* productsID Dictionary 2.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F24AC471628ABDA00B3BCCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F24AE641628DEA000B3BCCC /* Quest.m in Sources */,
+				3F24AE501628D8C800B3BCCC /* DRSBarGraphViewController_iPad.m in Sources */,
+				3F24AE511628D8C800B3BCCC /* DRSBarResultViewController_iPad.m in Sources */,
+				3F24AE521628D8C800B3BCCC /* DRSInfoTableViewController_iPad.m in Sources */,
+				3F24AE531628D8C800B3BCCC /* DRSPictureViewController_iPad.m in Sources */,
+				3F24AE541628D8C800B3BCCC /* DRSPontTableViewController_iPad.m in Sources */,
+				3F24AE551628D8C800B3BCCC /* DRSPontTableViewController2_iPad.m in Sources */,
+				3F24AE561628D8C800B3BCCC /* DRSQuestIntroViewController_iPad.m in Sources */,
+				3F24AE571628D8C800B3BCCC /* DRSQuestTableViewController1_iPad.m in Sources */,
+				3F24AE581628D8C800B3BCCC /* DRSQuestTableViewController2_iPad.m in Sources */,
+				3F24AE591628D8C800B3BCCC /* DRSBarGraphViewController.m in Sources */,
+				3F24AE5A1628D8C800B3BCCC /* DRSBarResultViewController.m in Sources */,
+				3F24AE5B1628D8C800B3BCCC /* DRSInfoTableViewController_iPhone.m in Sources */,
+				3F24AE5C1628D8C800B3BCCC /* DRSPictureViewController_iPhone.m in Sources */,
+				3F24AE5D1628D8C800B3BCCC /* DRSPontTableViewController2_iPhone.m in Sources */,
+				3F24AE5E1628D8C800B3BCCC /* DRSPontTableViewController_iPhone.m in Sources */,
+				3F24AE5F1628D8C800B3BCCC /* DRSQuestIntroViewController_iPhone.m in Sources */,
+				3F24AE601628D8C800B3BCCC /* DRSQuestTableViewController1_iPhone.m in Sources */,
+				3F24AE611628D8C800B3BCCC /* DRSQuestTableViewController2_iPhone.m in Sources */,
+				3F24AE4F1628D89100B3BCCC /* TextLevel1.m in Sources */,
+				3F24AE4E1628D86400B3BCCC /* DETableViewCell.m in Sources */,
+				3F24AE4D1628D84700B3BCCC /* OHAttributedLabel.m in Sources */,
+				3F24AE4C1628D83900B3BCCC /* NSAttributedString+Attributes.m in Sources */,
+				3F24AE471628D80300B3BCCC /* DRSTextTableViewController1_iPad.m in Sources */,
+				3F24AE481628D80300B3BCCC /* DRSTextTableViewController3_iPad.m in Sources */,
+				3F24AE491628D80300B3BCCC /* DRSTextTableViewController1_iPhone.m in Sources */,
+				3F24AE4A1628D80300B3BCCC /* DRSTextTableViewController2_iPhone.m in Sources */,
+				3F24AE4B1628D80300B3BCCC /* DRSTextTableViewController3_iPhone.m in Sources */,
+				3F24AD791628D1DD00B3BCCC /* DRSQuestionnaire.m in Sources */,
+				3F24AD771628D17E00B3BCCC /* RateSuggestService.m in Sources */,
+				3F24AD781628D17E00B3BCCC /* AppModel.m in Sources */,
+				3F24AC5E1628ABDA00B3BCCC /* main.m in Sources */,
+				3F24AC621628ABDB00B3BCCC /* DRSAppDelegate.m in Sources */,
+				3F24AC6B1628ABDB00B3BCCC /* SaudeSexual_free.xcdatamodeld in Sources */,
+				3F24AD0D1628C20000B3BCCC /* LocalyticsDatabase.m in Sources */,
+				3F24AD0E1628C20000B3BCCC /* LocalyticsSession.m in Sources */,
+				3F24AD0F1628C20000B3BCCC /* LocalyticsUploader.m in Sources */,
+				3F24AD1A1628C42D00B3BCCC /* DEPictureTableViewCell.m in Sources */,
+				3F9EB1DF1629EFB300054118 /* Reachability.m in Sources */,
+				3F4559D8162B6ECD00401EFD /* DRSIAPDataSource.m in Sources */,
+				3FAC6D54162CC25900109A1B /* VerificationController.m in Sources */,
+				3FAC6D5D162CD05B00109A1B /* DRSContentController.m in Sources */,
+				3F3B00B5162E5AE4004CB690 /* NSData+Base64.m in Sources */,
+				3F4E0D0A1632213F00FD6621 /* DRSSaudeSexualIAPHelper.m in Sources */,
+				3F4E0D0B1632213F00FD6621 /* IAPHelper.m in Sources */,
+				3F4E0D1D1632430B00FD6621 /* MBProgressHUD.m in Sources */,
+				3F13CABB1635AC6D0094EB65 /* DRSStoreCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F24AC5A1628ABDA00B3BCCC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F24AC5B1628ABDA00B3BCCC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F24AC6C1628ABDB00B3BCCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Alain Dutra";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Alain Dutra (3M32W547RE)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "CF2DD388-1882-4F5D-AC35-0484E4EEB3CB";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv6 i386";
+			};
+			name = Debug;
+		};
+		3F24AC6D1628ABDB00B3BCCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Alain Dutra";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "CF2DD388-1882-4F5D-AC35-0484E4EEB3CB";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv6 i386";
+			};
+			name = Release;
+		};
+		3F24AC6F1628ABDB00B3BCCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaudeSexual free/SaudeSexual free-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "SaudeSexual free/SaudeSexual free-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv6 armv7";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3F24AC701628ABDB00B3BCCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaudeSexual free/SaudeSexual free-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "SaudeSexual free/SaudeSexual free-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv6 armv7";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F24AC451628ABDA00B3BCCC /* Build configuration list for PBXProject "SaudeSexual free" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F24AC6C1628ABDB00B3BCCC /* Debug */,
+				3F24AC6D1628ABDB00B3BCCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F24AC6E1628ABDB00B3BCCC /* Build configuration list for PBXNativeTarget "SaudeSexual free" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F24AC6F1628ABDB00B3BCCC /* Debug */,
+				3F24AC701628ABDB00B3BCCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3F24AC691628ABDB00B3BCCC /* SaudeSexual_free.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3F24AC6A1628ABDB00B3BCCC /* SaudeSexual_free.xcdatamodel */,
+			);
+			currentVersion = 3F24AC6A1628ABDB00B3BCCC /* SaudeSexual_free.xcdatamodel */;
+			path = SaudeSexual_free.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3F24AC421628ABDA00B3BCCC /* Project object */;
+}

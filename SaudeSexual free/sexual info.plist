@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>NENHUMA PARTE DESTE APLICATIVO PODE SUBSTITUIR UMA CONSULTA MÉDICA. ESTE APLICATIVO NÃO PODE SER USADO PARA AUTOMEDICAÇÃO OU AUTOTRATAMENTO, SENDO SOMENTE APROPRIADO PARA ORIENTAÇÃO.</string>
+	<string>Segundo o Código de Ética Médica, capítulo XIII, art. 114. - É vedado ao médico:  Consultar, diagnosticar ou prescrever por qualquer meio de comunicação de massa.Portanto este aplicativo tem apenas função de informação  e não de consulta.</string>
+	<string>##POR FAVOR ATENTE PARA OS SEGUINTES FATOS:##</string>
+	<string>$$1) NÃO EXISTE DISFUNÇÃO ERÉTIL 100 % ORGÂNICA$$ - É muito frequente que os pacientes que iniciam com um quadro de origem orgânica venham a manifestar várias alterações psicológicas (como depressão) em decorrência do problema, e isto tende a piorar o quadro. Consulte seu urologista para averiguar a necessidade de avaliação ou acompanhamento psicológico.</string>
+	<string>2) Mesmo para aqueles casos com suspeita de predomínio psicológico é ainda **fundamental uma avaliação completa por um urologista**. Se não for encontrada nenhuma alteração de cunho orgânico este profissional poderá encaminhá-lo para um psicoterapeuta.</string>
+	<string>3)  Esta distinção só faz sentido para orientar os pacientes a respeito da gravidade de seu caso e indicar os próximos passos.</string>
+	<string>##Agradecimentos##</string>
+	<string>- À AliSoftware® (Olivier Halligon) pelo uso da classe OHAttributedLabel (projeto do GitHub - https://github.com/AliSoftware/OHAttributedLabel/wiki)</string>
+	<string>- Ao projeto Core Plot pelo uso do framework de gráficos - http://code.google.com/p/core-plot/</string>
+    <string>- À Pfizer® e à Louis Matza, cientista da United BioSource Corporation®, pelo uso de alguns questionários</string>
+	<string>Para perguntas, sugestões ou  reclamações, contate a DrSolution, através do email contato@drsolution.org ou através do site www.drsolution.org</string>
+	<string>$$DrSolution - Soluções em Aplicativos para Saúde$$</string>
+</array>
+</plist>

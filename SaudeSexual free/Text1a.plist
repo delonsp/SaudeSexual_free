@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>Baixo Desejo Sexual</string>
+		<string>Introdução e Definições</string>
+		<string>Sintomas e Tipos</string>
+		<string>Diagnóstico e Exames</string>
+		<string>Tratamento e Cuidados</string>
+	</array>
+	<array>
+		<string>Ejaculação Precoce</string>
+		<string>Introdução</string>
+		<string>Causas e Dados Populacionais</string>
+		<string>Apresentação Clínica</string>
+		<string>Tratamento</string>
+		<string>DICAS</string>
+	</array>
+	<array>
+		<string>Impotência Sexual</string>
+		<string>Introdução e Definições</string>
+		<string>Anatomia e fisiologia</string>
+		<string>Causas</string>
+		<string>Dados Populacionais</string>
+		<string>Investigação e Exames</string>
+		<string>Tratamento</string>
+		<string>Derrubando mitos</string>
+	</array>
+	<array>
+		<string>Ejaculação Retardada</string>
+		<string>Ejaculação retardada</string>
+		<string>Baixo volume ejaculado</string>
+	</array>
+	<array>
+		<string>DST</string>
+		<string>Introdução</string>
+		<string>Gonorréia e outras Uretrites</string>
+		<string>Sífilis</string>
+		<string>Herpes Genital</string>
+		<string>Condiloma Acuminado (HPV)</string>
+		<string>Hepatites B e C</string>
+		<string>AIDS</string>
+	</array>
+	<array>
+		<string>Saúde do Homossexual</string>
+		<string>Introdução</string>
+		<string>Cuidados específicos</string>
+	</array>
+	<array>
+		<string>Saúde da Mulher</string>
+		<string>Baixo Desejo na Mulher</string>
+		<string>Dor na Penetração</string>
+		<string>Anorgasmia</string>
+	</array>
+</array>
+</plist>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>pergunta01</key>
+	<array>
+		<string>Em termos gerais, até que ponto está satisfeito com este tratamento ?</string>
+		<string>Muito satisfeito</string>
+		<string>Moderadamente satisfeito</string>
+		<string>Nem satisfeito nem insatisfeito</string>
+		<string>Moderadamente insatisfeito</string>
+		<string>Muito insatisfeito</string>
+	</array>
+	<key>pergunta02</key>
+	<array>
+		<string>Durante as últimas quatro semanas, até que ponto é que o tratamento correspondeu às suas expectativas ?</string>
+		<string>Completamente</string>
+		<string>Consideravelmente</string>
+		<string>Parcialmente</string>
+		<string>Um pouco</string>
+		<string>Nem um pouco</string>
+	</array>
+	<key>pergunta03</key>
+	<array>
+		<string>Até que ponto é provável que continue a utilizar este tratamento ?</string>
+		<string>Muito provável</string>
+		<string>Moderadamente provável</string>
+		<string>Sem opinião</string>
+		<string>Moderadamente improvável</string>
+		<string>Muito improvável</string>
+	</array>
+	<key>pergunta04</key>
+	<array>
+		<string>Durante as últimas quatro semanas, até que ponto foi fácil para você utilizar este tratamento ?</string>
+		<string>Muito fácil</string>
+		<string>Moderadamente fácil</string>
+		<string>Nem fácil nem difícil</string>
+		<string>Moderadamente difícil</string>
+		<string>Muito difícil</string>
+	</array>
+	<key>pergunta05</key>
+	<array>
+		<string>Durante as últimas quatro semanas, até que ponto ficou satisfeito com a rapidez de atuação do tratamento ?</string>
+		<string>Muito satisfeito</string>
+		<string>Moderadamente satisfeito</string>
+		<string>Nem satisfeito nem insatisfeito</string>
+		<string>Moderadamente insatisfeito</string>
+		<string>Muito insatisfeito</string>
+	</array>
+	<key>pergunta06</key>
+	<array>
+		<string>Durante as últimas quatro semanas, até que ponto ficou satisfeito com a duração dos efeitos do tratamento ?</string>
+		<string>Muito satisfeito</string>
+		<string>Moderadamente satisfeito</string>
+		<string>Nem satisfeito nem insatisfeito</string>
+		<string>Moderadamente insatisfeito</string>
+		<string>Muito insatisfeito</string>
+	</array>
+	<key>pergunta07</key>
+	<array>
+		<string>Até que ponto este tratamento o fez sentir-se confiante em relação à sua capacidade de praticar a atividade sexual ?</string>
+		<string>Muito mais confiante</string>
+		<string>Moderadamente mais confiante</string>
+		<string>Não teve qualquer impacto</string>
+		<string>Moderadamente menos confiante</string>
+		<string>Muito menos confiante</string>
+	</array>
+	<key>pergunta08</key>
+	<array>
+		<string>Em termos gerais, até que ponto acha que a sua mulher, ou a sua parceira, está satisfeita com os efeitos deste tratamento ?</string>
+		<string>Muito satisfeita</string>
+		<string>Moderadamente satisfeita</string>
+		<string>Nem satisfeita nem insatisfeita</string>
+		<string>Moderadamente insatisfeita</string>
+		<string>Muito insatisfeita</string>
+	</array>
+	<key>pergunta09</key>
+	<array>
+		<string>O que pensa a sua mulher, ou a sua parceira, do fato de você continuar a utilizar este tratamento ?</string>
+		<string>Ela quer firmemente que eu continue o tratamento</string>
+		<string>De um modo geral, ela prefere que eu continue o tratamento</string>
+		<string>Ela não tem qualquer opinião sobre o tratamento</string>
+		<string>De um modo geral, ela prefere que eu pare o tratamento</string>
+		<string>Ela quer firmemente que eu pare o tratamento</string>
+	</array>
+	<key>pergunta10</key>
+	<array>
+		<string>Até que ponto sentiu que foi natural para você o processo de alcançar uma ereção, quando usou este tratamento, durante as últimas quatro semanas?</string>
+		<string>Muito natural</string>
+		<string>Moderadamente natural</string>
+		<string>Nem natural nem artificial</string>
+		<string>Moderadamente artificial</string>
+		<string>Muito artificial</string>
+	</array>
+	<key>pergunta11</key>
+	<array>
+		<string>Comparando com antes de ter o problema de ereção, como avaliaria a rigidez da sua ereção quando usou este tratamento, durante as últimas quatro semanas?</string>
+		<string>Muito mais rígido do que antes de ter o problema de ereção</string>
+		<string>Moderadamente mais rígido do que antes de ter o problema de ereção</string>
+		<string>A mesma rigidez do que antes de ter o problema de ereção</string>
+		<string>Moderadamente menos rígido do que antes de ter o problema de ereção</string>
+		<string>Muito menos rígido do que antes de ter o problema de ereção</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>normal</key>
+		<string>ausência de distúrbio de apetite sexual.</string>
+		<key>anormal</key>
+		<string>distúrbio de baixo apetite sexual.</string>
+	</dict>
+	<dict>
+		<key>ausência</key>
+		<string>ausência de disfunção erétil.</string>
+		<key>leve</key>
+		<string>disfunção erétil leve.</string>
+		<key>leve a moderada</key>
+		<string>disfunção erétil leve a moderada.</string>
+		<key>moderada</key>
+		<string>disfunção erétil moderada.</string>
+		<key>severa</key>
+		<string>disfunção erétil severa.</string>
+	</dict>
+	<dict>
+		<key>psico</key>
+		<string>predomínio de causas psicogênicas.</string>
+		<key>organ</key>
+		<string>predomínio de causas orgânicas.</string>
+	</dict>
+</array>
+</plist>

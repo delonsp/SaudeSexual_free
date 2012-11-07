@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Baixo Desejo Sexual</key>
+	<array>
+		<string>BAIXO DESEJO SEXUAL</string>
+		<string>Introdução e Definições</string>
+		<string>Sintomas e Tipos</string>
+		<string>Diagnóstico e Exames</string>
+		<string>Tratamento e Cuidados</string>
+	</array>
+	<key>Ejaculação Precoce</key>
+	<array>
+		<string>EJACULAÇÃO PRECOCE</string>
+		<string>Introdução</string>
+		<string>Causas e Dados Populacionais</string>
+		<string>Apresentação Clínica</string>
+		<string>Tratamento</string>
+		<string>DICAS</string>
+	</array>
+	<key>Impotência Sexual</key>
+	<array>
+		<string>IMPOTÊNCIA SEXUAL</string>
+		<string>Introdução e Definições</string>
+		<string>Anatomia e fisiologia</string>
+		<string>Causas</string>
+		<string>Dados Populacionais</string>
+		<string>Investigação e Exames</string>
+		<string>Tratamento</string>
+		<string>Derrubando mitos</string>
+	</array>
+	<key>Ejaculação Retardada</key>
+	<array>
+		<string>Ejaculação Retardada</string>
+		<string>Ejaculação retardada</string>
+		<string>Baixo volume ejaculado</string>
+	</array>
+	<key>DST</key>
+	<array>
+		<string>DST</string>
+		<string>Introdução</string>
+		<string>Gonorréia e outras Uretrites</string>
+		<string>Sífilis</string>
+		<string>Herpes Genital</string>
+		<string>Condiloma Acuminado (HPV)</string>
+		<string>Hepatites B e C</string>
+		<string>AIDS</string>
+	</array>
+	<key>Saúde do Homossexual</key>
+	<array>
+		<string>Saúde do Homossexual</string>
+		<string>Introdução</string>
+		<string>Cuidados específicos</string>
+	</array>
+	<key>Saúde da Mulher</key>
+	<array>
+		<string>Saúde da Mulher</string>
+		<string>Baixo Desejo na Mulher</string>
+		<string>Dor na Penetração</string>
+		<string>Anorgasmia</string>
+	</array>
+</dict>
+</plist>

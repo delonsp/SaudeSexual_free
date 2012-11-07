@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Sífilis</key>
+	<array>
+		<string>espiroqueta.png</string>
+		<string>cancro duro.jpg</string>
+		<string>sifilis secundaria.png</string>
+		<string>sifilis terciaria.png</string>
+	</array>
+	<key>Gonorréia e outras Uretrites</key>
+	<array>
+		<string>gonorreia homem.png</string>
+		<string>gonorreia colo uterino.png</string>
+		<string>Lymphogranuloma_venereum.png</string>
+	</array>
+	<key>Herpes Genital</key>
+	<array>
+		<string>herpes homem.png</string>
+		<string>herpes mulher.png</string>
+	</array>
+	<key>Condiloma Acuminado (HPV)</key>
+	<array>
+		<string>condiloma1.png</string>
+		<string>condiloma vulvar.png</string>
+		<string>condiloma anal.png</string>
+		<string>condiloma gigante.png</string>
+	</array>
+    <key>Hepatites B e C</key>
+    <array>
+        <string>hep_b_virus.png</string>
+        <string>cirrhosis.png</string>
+        <string>liver_tumour.png</string>
+    </array>
+    <key>AIDS</key>
+    <array>
+        <string>disseminated_zoster.png</string>
+        <string>disseminated_candidiasis.png</string>
+        <string>Kaposi and zoster.png</string>
+    </array>
+</dict>
+</plist>

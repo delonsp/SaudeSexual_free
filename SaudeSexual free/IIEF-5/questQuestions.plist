@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>pergunta01</key>
+	<array>
+		<string>Nas últimas 4 semanas: Como você classifica sua confiança em manter uma ereção ?</string>
+		<string>1. Muito baixa</string>
+		<string>2. Baixa</string>
+		<string>3. Moderada</string>
+		<string>4. Alta</string>
+		<string>5. Muito alta</string>
+	</array>
+	<key>pergunta02</key>
+	<array>
+		<string>Nas últimas 4 semanas: Quando você tem ereções com estímulo sexual, com que freqüência suas ereções atingem a rigidez para penetração (penetrar sua parceira) ?</string>
+		<string>0. Sem atividade sexual nos últimos 6 meses</string>
+		<string>1. Quase nunca ou nunca</string>
+		<string>2. Poucas vezes (muito menos que a metade das vezes)</string>
+		<string>3. Algumas vezes (cerca de metade das vezes)</string>
+		<string>4. A maioria das vezes (muito mais que a metade)</string>
+		<string>5. Quase sempre ou sempre</string>
+	</array>
+	<key>pergunta03</key>
+	<array>
+		<string>Nas últimas 4 semanas: Durante a relação sexual, com que freqüência você conseguiu manter sua ereção após ter penetrado sua parceira ?</string>
+		<string>0. Sem atividade sexual nos últimos 6 meses</string>
+		<string>1. Quase nunca ou nunca</string>
+		<string>2. Poucas vezes (muito menos que a metade das vezes)</string>
+		<string>3. Algumas vezes (cerca de metade das vezes)</string>
+		<string>4. A maioria das vezes (muito mais que a metade)</string>
+		<string>5. Quase sempre ou sempre</string>
+	</array>
+	<key>pergunta04</key>
+	<array>
+		<string>Nas últimas 4 semanas: Durante a relação sexual, qual o nível de dificuldade para manter sua ereção até o final da relação sexual ?</string>
+		<string>0. Sem atividade sexual nos últimos 6 meses</string>
+		<string>1. Extremamente difícil</string>
+		<string>2. Muito difícil</string>
+		<string>3. Difícil</string>
+		<string>4. Pouco difícil</string>
+		<string>5. Nada difícil</string>
+	</array>
+	<key>pergunta05</key>
+	<array>
+		<string>Nas últimas 4 semanas: Quando você teve a relação sexual, com que freqüência ela foi satisfatória para você ?</string>
+		<string>0. Sem atividade sexual nos últimos 6 meses</string>
+		<string>1. Quase nunca ou nunca</string>
+		<string>2. Poucas vezes (muito menos que a metade das vezes)</string>
+		<string>3. Algumas vezes (cerca de metade das vezes)</string>
+		<string>4. A maioria das vezes (muito mais que a metade)</string>
+		<string>5. Quase sempre ou sempre</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>all</key>
+	<array>
+		<string>Tenha acesso a todos os questionários com desconto de mais de 40% !</string>
+	</array>
+	<key>EDITS</key>
+	<array>
+		<string>Inquérito sobre o Nível de Satisfação com o Tratamento para a Disfunção Erétil (Impotência Sexual)</string>
+		<string> Autores: Stanley E. Althof, Ph.D. e Eric W. Corty, Ph.D.</string>
+		<string> Produzido por Mapi Research Institute.</string>
+		<string>Este questionário deve ser respondido por aqueles que já iniciaram o tratamento para a impotência.</string>
+		<string> As perguntas neste inquérito referem-se a sua vida sexual com a sua(seu) parceira(o), bem como a sua atitude e expectativas relacionadas com o método de tratamento que está utilizando para ajudar com o seu problema de ereção. </string>
+		<string>É interessante que responda com o máximo de honestidade e sinceridade, para que suas respostas reflitam de forma correta a realidade.</string>
+	</array>
+	<key>HSDD</key>
+	<array>
+		<string>￼￼Rastreador do Distúrbio do Desejo Sexual Hipoativo (Tradução para o Português do Hypoactive Sexual Desire Disorder [HSDD] Screener).</string>
+		<string> Copyright da Empresa Pfizer.</string>
+		<string> Vida Sexual inclui qualquer atividade que pode resultar em estimulação ou prazer sexual (penetração, carícias, preliminares, masturbação e sexo oral) assim como o relacionamento emocional sexual que você tem com a sua parceira(o).</string>
+		<string>As perguntas se referem aos últimos 3 meses.</string>
+	</array>
+	<key>IIEF-5</key>
+	<array>
+		<string>Índice Internacional de Função Erétil Simplificado (IIEF-5)</string>
+		<string>Estas questões referem-se ao efeito que os seus problemas de ereção têm acarretado na sua vida sexual nas últimas 4 semanas. Por favor, responda a estas questões o mais honestamente e claramente possível.</string>
+		<string>Se você não tem certeza de como responder, por favor, dê a melhor resposta que você puder.</string>
+		<string>Ao responder estas questões, observe as seguintes definições:</string>
+		<string>* Relação sexual - É definida como penetração sexual (entrada) no/a parceiro/a.</string>
+		<string>** Atividade sexual - Inclui relação sexual, carícias, brincadeiras amorosas e masturbação. </string>
+		<string> *** Ejaculação - É definida como a saída de sêmen pelo pênis (ou a sensação desta saída). </string>
+		<string> **** Estimulação sexual - Inclui situações como brincadeiras amorosas com um/a parceiro/a, olhar fotos eróticas, etc.</string>
+	</array>
+	<key>IPE</key>
+	<array>
+		<string>ÍNDICE DE EJACULAÇÃO PRECOCE. Copyright da Empresa Pfizer</string>
+		<string>Estas questões são acerca dos efeitos que os seus problemas sexuais têm tido na sua vida sexual durante as quatro últimas semanas.  </string>
+		<string>Por favor responda às seguintes questões de forma tão honesta e clara quanto possível. Ao responder a estas questões, aplicam-se as seguintes definições:</string>
+		<string> - Relação sexual - É definida como penetração sexual (entrada) no/a parceiro/a</string>
+		<string>- Ejaculação: É definida como a saída de sêmen pelo pênis (ou a sensação desta saída) </string>
+		<string>- Chateado: significa o quanto está frustrado, desapontado ou aborrecido com a sua ejaculação precoce.</string>
+	</array>
+	<key>QEQ</key>
+	<array>
+		<string>Questionário de Qualidade da Ereção (QEQ)</string>
+		<string>As questões seguintes perguntam sobre a qualidade das suas ereções ao longo das últimas quatro semanas.  </string>
+		<string>Por favor, para cada questão assinale a opção que melhor descreve sua resposta. Ao responder estas questões, observe as seguintes definições:</string>
+		<string>- Atividade sexual inclui relação sexual, carícias, brincadeiras amorosas e masturbação.</string>
+		<string>- Relação sexual é definida como penetração (entrada) na vagina da parceira.</string>
+	</array>
+	<key>SEAR</key>
+	<array>
+		<string>Questionário de Auto-estima e de Relacionamento (SEAR)</string>
+		<string>O SEAR é um instrumento de avaliação específico para impotência masculina. Consiste em 14 itens que são divididos em dois domínios: Relacionamento Sexual (itens de 1 a 8) e Auto-confiança (itens de de 9 a 14).</string>
+		<string>O segundo domínio pode ainda ser subdividido em subescalas de Auto-Estima (itens 9 a 12) e Relacionamento em geral (itens 13 e 14).</string>
+		<string>O SEAR passou por um processo rigoroso de desenvolvimento e validação. Os resultados de um estudo observacional multicêntrico em 98 homens com impotência e 94 controles com a mesma idade sugerem que o questionário SEAR possui validade e alta confiabilidade para medir aspectos da auto-confiança, relacionamento e auto-estima.</string>
+		<string>INSTRUÇÕES: Por favor pense sobre as últimas 4 semanas quando responder às seguintes afirmações.</string>
+	</array>
+	<key>SQoL-M</key>
+	<array>
+		<string>Questionário sobre Qualidade de Vida Sexual – Homens© (Brazilian Portuguese version of the SQoL-M)</string>
+		<string>Este questionário é formado por uma série de frases referentes a pensamentos e sentimentos que você pode ter sobre sua vida sexual.  Geralmente, a primeira resposta que vem à sua cabeça é a melhor. Assim, não perca muito tempo em cada pergunta. Todas as suas respostas serão totalmente confidenciais</string>
+		<string>As frases podem se referir tanto a aspectos positivos como negativos de sua vida sexual. Você deve avaliar cada uma das frases de acordo com o quanto você concorda ou discorda da mesma.  Ao responder estas perguntas lembre-se sempre das definições abaixo:</string>
+		<string>Vida sexual: Compreende tanto o aspecto físico da atividade sexual quanto o lado emocional da relação sexual que você tem com a sua parceira. </string>
+		<string>Atividade sexual: Inclui qualquer atividade que possa resultar em estímulo sexual ou prazer sexual, por exemplo: ato sexual, carícias, preliminares, masturbação (isto é, quando você se masturba ou quando sua/eu parceira/o lhe masturba) e sexo oral (isto é, sua/eu parceira/o fazendo sexo oral em você). </string>
+	</array>
+	<key>Sobre os Questionários</key>
+	<array>
+		<string>Se for a primeira vez que você responde a estes questionários atente para os seguintes fatos:</string>
+		<string>- A maioria dos questionários, com exceção do Rastreador do Distúrbio de Baixo Desejo Sexual, é direcionada para homens, independentemente da orientação sexual hetero ou homoafetiva.</string>
+		<string>- O Rastreador do Distúrbio de Baixo Desejo pode também ser respondido por mulheres.</string>
+		<string>- Existem três tipos de questionários.</string>
+		<string>  a) Questionários que sugerem o grau ou tipo da doença:  Estes questionários são qualitativos. Os resultados são diretamente associados a algum grau específico de intensidade da doença, ou de presença ou ausência de alguma condição.</string>
+		<string>  b) Questionários comparativos (para fazer antes e após algum tratamento): Estes questionários são quantitativos, ou seja, o resultado está em uma escala de 0 a 100 e não está associado especificamente a algum grau de doença. Estes servem para comparações entre o estado antes e depois de algum tratamento.</string>
+		<string>  c) Questionário para averiguar a satisfação com o tratamento da impotência sexual.</string>
+		<string>- Por exemplo, o questionário IIEF-5 é do primeiro tipo, porque se o resultado for por exemplo 5 será uma disfunção erétil acentuada. Já o questionário de ejaculação precoce é do segundo tipo, porque se o resultado por exemplo for de 60, isto não está exatamente associado a um grau determinado de ejaculação precoce. Porém se você fizer novamente o questionário após algum tratamento e o novo resultado for 80, você saberá que obteve uma melhora.</string>
+		<string>Sugerimos que você faça primeiro os questionários IIEF-5 (Índice Internacional de Função Erétil Simplificado) e HSDD (Rastreador do Distúrbio de Baixo Desejo Sexual) por serem mais objetivos. Eles englobam os dois aspectos principais da atividade sexual masculina - apetite sexual e ereção. Depois faça os outros questionários. Os resultados ficarão armazenados na memória de seu dispositivo. Refaça os questionários após procurar ajuda médica e/ou psicológica para acompanhar a sua evolução.</string>
+		<string>Estes questionários foram primariamente elaborados para suporte em estudos clínicos para averiguar a melhora ou ausência de melhora dos pacientes após algum tratamento. Com exceção do OVP, todos foram validados e endossados e são aceitos internacionalmente.</string>
+	</array>
+	<key>OVP</key>
+	<array>
+		<string>Questionário Causas Psicogênicas versus Causas Orgânicas (OVP)</string>
+		<string>ATENÇÃO: Este questionário tem por objetivo dar uma idéia geral a respeito da parcela de contribuição dos aspectos psicológicos e orgânicos no quadro de impotência sexual.  </string>
+		<string>Os resultados devem ser analisados com cautela e tem como objetivo uma melhor conscientização quanto as causas do problema. </string>
+		<string>Continua sendo recomendado uma consulta com um urologista mesmo que exista predomínio dos aspectos emocionais.</string>
+	</array>
+</dict>
+</plist>

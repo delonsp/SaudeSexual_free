@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>pergunta01</key>
+	<array>
+		<string>Nas últimas quatro semanas, quando você teve relações sexuais, quantas vezes teve controle sobre quando ejaculou ?</string>
+		<string>Quase sempre ou sempre</string>
+		<string>Mais da metade das vezes</string>
+		<string>Cerca de metade das vezes</string>
+		<string>Menos de metade das vezes</string>
+		<string>Quase nunca ou nunca</string>
+	</array>
+	<key>pergunta02</key>
+	<array>
+		<string>Nas últimas quatro semanas, quando teve relações sexuais, o quanto confiante esteve sobre quando ejaculou?</string>
+		<string>Elevada confiança</string>
+		<string>Moderadamente elevada confiança</string>
+		<string>Nem elevada nem baixa confiança</string>
+		<string>Moderadamente baixa confiança</string>
+		<string>Baixa confiança</string>
+	</array>
+	<key>pergunta03</key>
+	<array>
+		<string>Nas últimas quatro semanas, quando teve relações sexuais, com que frequência foi satisfatório para você ?</string>
+		<string>Quase sempre ou sempre</string>
+		<string>Mais da metade das vezes</string>
+		<string>Cerca de metade das vezes</string>
+		<string>Menos de metade das vezes</string>
+		<string>Quase nunca ou nunca</string>
+	</array>
+	<key>pergunta04</key>
+	<array>
+		<string>Nas últimas quatro semanas, quando teve relações sexuais, o quanto satisfeito esteve com a sua capacidade de controle sobre quando ejaculou?</string>
+		<string>Muito satisfeito</string>
+		<string>De certo modo satisfeito</string>
+		<string>Nem satisfeito nem insatisfeito</string>
+		<string>De certo modo insatisfeito</string>
+		<string>Muito insatisfeito</string>
+	</array>
+	<key>pergunta05</key>
+	<array>
+		<string>Nas últimas quatro semanas, quando teve relações sexuais, o quanto satisfeito ficou com a duração da relação antes da ejaculação ?</string>
+		<string>Muito satisfeito</string>
+		<string>De certo modo satisfeito</string>
+		<string>Nem satisfeito nem insatisfeito</string>
+		<string>De certo modo insatisfeito</string>
+		<string>Muito insatisfeito</string>
+	</array>
+	<key>pergunta06</key>
+	<array>
+		<string>Nas últimas quatro semanas, o quanto satisfeito tem ficado com a sua vida sexual no geral ?</string>
+		<string>Muito satisfeito</string>
+		<string>De certo modo satisfeito</string>
+		<string>Nem satisfeito nem insatisfeito</string>
+		<string>De certo modo insatisfeito</string>
+		<string>Muito insatisfeito</string>
+	</array>
+	<key>pergunta07</key>
+	<array>
+		<string>Nas últimas quatro semanas, o quanto satisfeito tem ficado com o seu relacionamento sexual com a sua parceira?</string>
+		<string>Muito satisfeito</string>
+		<string>De certo modo satisfeito</string>
+		<string>Nem satisfeito nem insatisfeito</string>
+		<string>De certo modo insatisfeito</string>
+		<string>Muito insatisfeito</string>
+	</array>
+	<key>pergunta08</key>
+	<array>
+		<string>Nas últimas quatro semanas, quanto prazer a relação sexual te deu ?</string>
+		<string>Elevado prazer</string>
+		<string>Moderadamente elevado prazer</string>
+		<string>Nem muito nem pouco prazer</string>
+		<string>Moderadamente pouco prazer</string>
+		<string>Pouco prazer</string>
+	</array>
+	<key>pergunta09</key>
+	<array>
+		<string>Nas últimas quatro semanas, o quanto chateado (frustrado) tem ficado com o tempo que demorou antes de ejacular ?</string>
+		<string>Extremamente chateado</string>
+		<string>Muito chateado</string>
+		<string>Moderadamente chateado</string>
+		<string>Ligeiramente chateado</string>
+		<string>Nada chateado</string>
+	</array>
+	<key>pergunta10</key>
+	<array>
+		<string>Nas últimas quatro semanas, o quanto chateado (frustrado) tem ficado com o seu controle sobre a ejaculação?</string>
+		<string>Extremamente chateado</string>
+		<string>Muito chateado</string>
+		<string>Moderadamente chateado</string>
+		<string>Ligeiramente chateado</string>
+		<string>Nada chateado</string>
+	</array>
+</dict>
+</plist>

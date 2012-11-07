@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>pergunta01</key>
+	<array>
+		<string>Nas últimas 4 semanas: Você teve ereções suficientemente duras para permitir a penetração em sua parceira ?</string>
+		<string>Quase sempre ou sempre</string>
+		<string>Mais da metade do tempo</string>
+		<string>Cerca da metade do tempo</string>
+		<string>Menos da metade do tempo</string>
+		<string>Quase nunca ou nunca</string>
+	</array>
+	<key>pergunta02</key>
+	<array>
+		<string>Nas últimas 4 semanas: Sua habilidade para manter sua ereção até o final da relação sexual foi:</string>
+		<string>Muito satisfatória</string>
+		<string>Um pouco satisfatória</string>
+		<string>Nem satisfatória nem insatisfatória</string>
+		<string>Um pouco insatisfatória</string>
+		<string>Muito insatisfatória</string>
+	</array>
+	<key>pergunta03</key>
+	<array>
+		<string>A quantidade de tempo (desde que começou a atividade sexual) até que a sua ereção fosse suficientemente dura para participar de uma relação sexual foi:</string>
+		<string>Muito satisfatória</string>
+		<string>Um pouco satisfatória</string>
+		<string>Nem satisfatória nem insatisfatória</string>
+		<string>Um pouco insatisfatória</string>
+		<string>Muito insatisfatória</string>
+	</array>
+	<key>pergunta04</key>
+	<array>
+		<string>Nas últimas 4 semanas: A quantidade de tempo que você foi capaz de manter a ereção durante a relação sexual foi:</string>
+		<string>Muito satisfatória</string>
+		<string>Um pouco satisfatória</string>
+		<string>Nem satisfatória nem insatisfatória</string>
+		<string>Um pouco insatisfatória</string>
+		<string>Muito insatisfatória</string>
+	</array>
+	<key>pergunta05</key>
+	<array>
+		<string>Nas últimas 4 semanas: A dureza da sua ereção foi:</string>
+		<string>Muito satisfatória</string>
+		<string>Um pouco satisfatória</string>
+		<string>Nem satisfatória nem insatisfatória</string>
+		<string>Um pouco insatisfatória</string>
+		<string>Muito insatisfatória</string>
+	</array>
+	<key>pergunta06</key>
+	<array>
+		<string>Nas últimas 4 semanas: A qualidade geral de sua ereção foi:</string>
+		<string>Muito satisfatória</string>
+		<string>Um pouco satisfatória</string>
+		<string>Nem satisfatória nem insatisfatória</string>
+		<string>Um pouco insatisfatória</string>
+		<string>Muito insatisfatória</string>
+	</array>
+</dict>
+</plist>

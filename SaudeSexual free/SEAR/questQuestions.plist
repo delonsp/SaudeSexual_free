@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>pergunta01</key>
+	<array>
+		<string>Nas últimas 4 semanas: Eu me senti à vontade para iniciar sexo com minha(eu) parceira(o) ?</string>
+		<string>Quase sempre/sempre</string>
+		<string>A maioria das vezes (muito mais que a metade das vezes)</string>
+		<string>Algumas vezes (cerca da metade das vezes)</string>
+		<string>Poucas vezes (muito menos que a metade das vezes)</string>
+		<string>Quase nunca/nunca</string>
+	</array>
+	<key>pergunta02</key>
+	<array>
+		<string>Nas últimas 4 semanas: Eu senti confiança de que durante o sexo minha ereção duraria o tempo suficiente ?</string>
+		<string>Quase sempre/sempre</string>
+		<string>A maioria das vezes (muito mais que a metade das vezes)</string>
+		<string>Algumas vezes (cerca da metade das vezes)</string>
+		<string>Poucas vezes (muito menos que a metade das vezes)</string>
+		<string>Quase nunca/nunca</string>
+	</array>
+	<key>pergunta03</key>
+	<array>
+		<string>Nas últimas 4 semanas: Eu fiquei satisfeito com meu desempenho sexual ?</string>
+		<string>Quase sempre/sempre</string>
+		<string>A maioria das vezes (muito mais que a metade das vezes)</string>
+		<string>Algumas vezes (cerca da metade das vezes)</string>
+		<string>Poucas vezes (muito menos que a metade das vezes)</string>
+		<string>Quase nunca/nunca</string>
+	</array>
+	<key>pergunta04</key>
+	<array>
+		<string>Nas últimas 4 semanas: Eu senti que fazer sexo poderia ser espontâneo (sem muito planejamento) ?</string>
+		<string>Quase sempre/sempre</string>
+		<string>A maioria das vezes (muito mais que a metade das vezes)</string>
+		<string>Algumas vezes (cerca da metade das vezes)</string>
+		<string>Poucas vezes (muito menos que a metade das vezes)</string>
+		<string>Quase nunca/nunca</string>
+	</array>
+	<key>pergunta05</key>
+	<array>
+		<string>Nas últimas 4 semanas: Eu tive disposição para começar a fazer sexo ?</string>
+		<string>Quase sempre/sempre</string>
+		<string>A maioria das vezes (muito mais que a metade das vezes)</string>
+		<string>Algumas vezes (cerca da metade das vezes)</string>
+		<string>Poucas vezes (muito menos que a metade das vezes)</string>
+		<string>Quase nunca/nunca</string>
+	</array>
+	<key>pergunta06</key>
+	<array>
+		<string>Nas últimas 4 semanas:  Eu me senti confiante em relação ao meu desempenho sexual ?</string>
+		<string>Quase sempre/sempre</string>
+		<string>A maioria das vezes (muito mais que a metade das vezes)</string>
+		<string>Algumas vezes (cerca da metade das vezes)</string>
+		<string>Poucas vezes (muito menos que a metade das vezes)</string>
+		<string>Quase nunca/nunca</string>
+	</array>
+	<key>pergunta07</key>
+	<array>
+		<string>Nas últimas 4 semanas:  Eu fiquei satisfeito com nossa vida sexual ?</string>
+		<string>Quase sempre/sempre</string>
+		<string>A maioria das vezes (muito mais que a metade das vezes)</string>
+		<string>Algumas vezes (cerca da metade das vezes)</string>
+		<string>Poucas vezes (muito menos que a metade das vezes)</string>
+		<string>Quase nunca/nunca</string>
+	</array>
+	<key>pergunta08</key>
+	<array>
+		<string>Nas últimas 4 semanas:  Minha(eu) parceira(o) ficou descontente com a qualidade de nossas relações sexuais ?</string>
+		<string>Quase sempre/sempre</string>
+		<string>A maioria das vezes (muito mais que a metade das vezes)</string>
+		<string>Algumas vezes (cerca da metade das vezes)</string>
+		<string>Poucas vezes (muito menos que a metade das vezes)</string>
+		<string>Quase nunca/nunca</string>
+	</array>
+	<key>pergunta09</key>
+	<array>
+		<string>Nas últimas 4 semanas: Eu estive com boa auto-estima ?</string>
+		<string>Quase sempre/sempre</string>
+		<string>A maioria das vezes (muito mais que a metade das vezes)</string>
+		<string>Algumas vezes (cerca da metade das vezes)</string>
+		<string>Poucas vezes (muito menos que a metade das vezes)</string>
+		<string>Quase nunca/nunca</string>
+	</array>
+	<key>pergunta10</key>
+	<array>
+		<string>Nas últimas 4 semanas:  Eu me senti como um homem completo ?</string>
+		<string>Quase sempre/sempre</string>
+		<string>A maioria das vezes (muito mais que a metade das vezes)</string>
+		<string>Algumas vezes (cerca da metade das vezes)</string>
+		<string>Poucas vezes (muito menos que a metade das vezes)</string>
+		<string>Quase nunca/nunca</string>
+	</array>
+	<key>pergunta11</key>
+	<array>
+		<string>Nas últimas 4 semanas:  Eu tive tendência a sentir que sou um fracasso ?</string>
+		<string>Quase sempre/sempre</string>
+		<string>A maioria das vezes (muito mais que a metade das vezes)</string>
+		<string>Algumas vezes (cerca da metade das vezes)</string>
+		<string>Poucas vezes (muito menos que a metade das vezes)</string>
+		<string>Quase nunca/nunca</string>
+	</array>
+	<key>pergunta12</key>
+	<array>
+		<string>Nas últimas 4 semanas: Eu me senti confiante ?</string>
+		<string>Quase sempre/sempre</string>
+		<string>A maioria das vezes (muito mais que a metade das vezes)</string>
+		<string>Algumas vezes (cerca da metade das vezes)</string>
+		<string>Poucas vezes (muito menos que a metade das vezes)</string>
+		<string>Quase nunca/nunca</string>
+	</array>
+	<key>pergunta13</key>
+	<array>
+		<string>Nas últimas 4 semanas:  Minha(eu) parceira(o) ficou satisfeita com nossa relação em geral ?</string>
+		<string>Quase sempre/sempre</string>
+		<string>A maioria das vezes (muito mais que a metade das vezes)</string>
+		<string>Algumas vezes (cerca da metade das vezes)</string>
+		<string>Poucas vezes (muito menos que a metade das vezes)</string>
+		<string>Quase nunca/nunca</string>
+	</array>
+	<key>pergunta14</key>
+	<array>
+		<string>Nas últimas 4 semanas:  Eu fiquei satisfeito com nossa relação em geral ?</string>
+		<string>Quase sempre/sempre</string>
+		<string>A maioria das vezes (muito mais que a metade das vezes)</string>
+		<string>Algumas vezes (cerca da metade das vezes)</string>
+		<string>Poucas vezes (muito menos que a metade das vezes)</string>
+		<string>Quase nunca/nunca</string>
+	</array>
+</dict>
+</plist>

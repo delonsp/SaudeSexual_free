@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>pergunta01</key>
+	<array>
+		<string>Quando penso sobre minha vida sexual, acho que ela é uma parte agradável de minha vida como um todo</string>
+		<string>1. concordo totalmente</string>
+		<string>2. concordo moderadamente</string>
+		<string>3. concordo ligeiramente</string>
+		<string>4. discordo ligeiramente</string>
+		<string>5. discordo moderadamente</string>
+		<string>6. discordo totalmente</string>
+	</array>
+	<key>pergunta02</key>
+	<array>
+		<string>Quando penso sobre minha vida sexual, eu me sinto frustrado</string>
+		<string>1. concordo totalmente</string>
+		<string>2. concordo moderadamente</string>
+		<string>3. concordo ligeiramente</string>
+		<string>4. discordo ligeiramente</string>
+		<string>5. discordo moderadamente</string>
+		<string>6. discordo totalmente</string>
+	</array>
+	<key>pergunta03</key>
+	<array>
+		<string>Quando penso sobre minha vida sexual, eu me sinto deprimido</string>
+		<string>1. concordo totalmente</string>
+		<string>2. concordo moderadamente</string>
+		<string>3. concordo ligeiramente</string>
+		<string>4. discordo ligeiramente</string>
+		<string>5. discordo moderadamente</string>
+		<string>6. discordo totalmente</string>
+	</array>
+	<key>pergunta04</key>
+	<array>
+		<string>Quando penso sobre minha vida sexual, eu me sinto menos masculino</string>
+		<string>1. concordo totalmente</string>
+		<string>2. concordo moderadamente</string>
+		<string>3. concordo ligeiramente</string>
+		<string>4. discordo ligeiramente</string>
+		<string>5. discordo moderadamente</string>
+		<string>6. discordo totalmente</string>
+	</array>
+	<key>pergunta05</key>
+	<array>
+		<string>Quando penso sobre minha vida sexual, eu me sinto bem comigo mesmo</string>
+		<string>1. concordo totalmente</string>
+		<string>2. concordo moderadamente</string>
+		<string>3. concordo ligeiramente</string>
+		<string>4. discordo ligeiramente</string>
+		<string>5. discordo moderadamente</string>
+		<string>6. discordo totalmente</string>
+	</array>
+	<key>pergunta06</key>
+	<array>
+		<string>Perdi a confiança em mim mesmo como um parceiro sexual</string>
+		<string>1. concordo totalmente</string>
+		<string>2. concordo moderadamente</string>
+		<string>3. concordo ligeiramente</string>
+		<string>4. discordo ligeiramente</string>
+		<string>5. discordo moderadamente</string>
+		<string>6. discordo totalmente</string>
+	</array>
+	<key>pergunta07</key>
+	<array>
+		<string>Quando penso sobre minha vida sexual, eu me sinto preocupado</string>
+		<string>1. concordo totalmente</string>
+		<string>2. concordo moderadamente</string>
+		<string>3. concordo ligeiramente</string>
+		<string>4. discordo ligeiramente</string>
+		<string>5. discordo moderadamente</string>
+		<string>6. discordo totalmente</string>
+	</array>
+	<key>pergunta08</key>
+	<array>
+		<string>Quando penso sobre minha vida sexual, eu sinto raiva</string>
+		<string>1. concordo totalmente</string>
+		<string>2. concordo moderadamente</string>
+		<string>3. concordo ligeiramente</string>
+		<string>4. discordo ligeiramente</string>
+		<string>5. discordo moderadamente</string>
+		<string>6. discordo totalmente</string>
+	</array>
+	<key>pergunta09</key>
+	<array>
+		<string>Quando penso sobre minha vida sexual, eu me sinto íntimo da minha parceira</string>
+		<string>1. concordo totalmente</string>
+		<string>2. concordo moderadamente</string>
+		<string>3. concordo ligeiramente</string>
+		<string>4. discordo ligeiramente</string>
+		<string>5. discordo moderadamente</string>
+		<string>6. discordo totalmente</string>
+	</array>
+	<key>pergunta10</key>
+	<array>
+		<string>Eu me preocupo com o futuro da minha vida sexual</string>
+		<string>1. concordo totalmente</string>
+		<string>2. concordo moderadamente</string>
+		<string>3. concordo ligeiramente</string>
+		<string>4. discordo ligeiramente</string>
+		<string>5. discordo moderadamente</string>
+		<string>6. discordo totalmente</string>
+	</array>
+	<key>pergunta11</key>
+	<array>
+		<string>As atividades sexuais não me dão mais prazer</string>
+		<string>1. concordo totalmente</string>
+		<string>2. concordo moderadamente</string>
+		<string>3. concordo ligeiramente</string>
+		<string>4. discordo ligeiramente</string>
+		<string>5. discordo moderadamente</string>
+		<string>6. discordo totalmente</string>
+	</array>
+</dict>
+</plist>

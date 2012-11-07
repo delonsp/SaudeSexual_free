@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0</key>
+	<string>org.drsolution.saudesexual.all</string>
+	<key>1</key>
+	<string>org.drsolution.saudesexual.IIEF</string>
+    <key>2</key>
+	<string>org.drsolution.saudesexual.HSDD</string>
+	<key>3</key>
+	<string>org.drsolution.saudesexual.ipe</string>
+    <key>4</key>
+    <string>org.drsolution.saudesexual.QEQ</string>
+	<key>5</key>
+	<string>org.drsolution.saudesexual.SEAR</string>
+	<key>6</key>
+	<string>org.drsolution.saudesexual.SQoLM</string>
+	<key>7</key>
+	<string>org.drsolution.saudesexual.EDITS</string>
+	
+</dict>
+</plist>

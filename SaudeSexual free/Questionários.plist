@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>OVP</key>
+	<array>
+		<string>Questionário de Impotência Sexual - Causas Psicogênicas versus Causas Orgânicas (OVP)</string>
+		<string>Este questionário tem por objetivo dar uma idéia geral a respeito da parcela de contribuição dos aspectos psicológicos e orgânicos no quadro de impotência sexual.</string>
+		<string>De todos os questionários este é o único não validado por estudos científicos. Ele meramente representa a experiência de um urologista. Não pode ser tomado de forma alguma como algo conclusivo.</string>
+	</array>
+	<key>IIEF-5</key>
+	<array>
+		<string>Índice Internacional de Função Erétil Simplificado (IIEF-5)</string>
+		<string>Estas questões referem-se ao efeito que os seus problemas de ereção têm acarretado na sua vida sexual  nas últimas 4 semanas. Por favor, responda a estas questões o mais honestamente e claramente possível. Se você não tem certeza de como responder, por favor, dê a melhor resposta que você puder. Ao responder estas questões, observe as seguintes definições:</string>
+		<string>* Relação sexual - É definida como penetração sexual (entrada) no/a parceiro/a.</string>
+		<string>** Atividade sexual - Inclui relação sexual, carícias, brincadeiras amorosas e masturbação.</string>
+		<string>*** Ejaculação - É definida como a saída de sêmen pelo pênis (ou a sensação desta saída).</string>
+		<string>**** Estimulação sexual - Inclui situações como brincadeiras amorosas com um/a parceiro/a, olhar fotos eróticas, etc.</string>
+	</array>
+	<key>SQoL-M</key>
+	<array>
+		<string>Questionário sobre Qualidade de Vida Sexual – Homens</string>
+		<string>Este questionário é formado por uma série de frases referentes a pensamentos e sentimentos que você pode ter sobre sua vida sexual. As frases podem se referir tanto a aspectos positivos como negativos de sua vida sexual.</string>
+		<string>Você deve avaliar cada uma das frases de acordo com o quanto você concorda ou discorda da mesma, para isso escolha entre uma das seis respostas.</string>
+		<string>Ao responder estas perguntas lembre-se sempre das definições abaixo:</string>
+		<string>Vida sexual: Compreende tanto o aspecto físico da atividade sexual quanto o lado emocional da relação sexual que você tem com a sua parceira. Atividade sexual: Inclui qualquer atividade que possa resultar em estímulo sexual ou prazer sexual, por exemplo: ato sexual, carícias, preliminares, masturbação (isto é, quando você se masturba ou quando sua parceira lhe masturba) e sexo oral (isto é, sua parceira fazendo sexo oral em você). Geralmente, a primeira resposta que vem à sua cabeça é a melhor. Assim, não perca muito tempo em cada pergunta.</string>
+	</array>
+	<key>SEAR</key>
+	<array>
+		<string>Questionário de Auto-estima e de Relacionamento (SEAR)</string>
+		<string>INSTRUÇÕES: Por favor pense sobre as últimas 4 semanas quando responder às seguintes afirmações.</string>
+	</array>
+	<key>EDITS</key>
+	<array>
+		<string>Inquérito sobre o Nível de Satisfação com o Tratamento para a Disfunção Erétil (Versão em português do EDITS)</string>
+		<string>As perguntas neste inquérito referem-se a um tema muito delicado, a sua vida sexual com a sua mulher ou a sua parceira, bem como a sua atitude e expectativas relacionadas com o método de tratamento que está utilizando para o tratamento do seu problema de ereção.</string>
+	</array>
+	<key>QEQ</key>
+	<array>
+		<string>Questionário de Qualidade da Ereção (QEQ)</string>
+		<string>As questões seguintes perguntam sobre a qualidade das suas ereções ao longo das últimas quatro semanas. Por favor, para cada questão assinale a opção que melhor descreve sua resposta.</string>
+		<string>Ao responder estas questões, observe as seguintes definições:</string>
+		<string>Atividade sexual inclui relação sexual, carícias, brincadeiras amorosas e masturbação. Relação sexual é definida como penetração (entrada) na vagina da parceira.</string>
+	</array>
+	<key>IPE</key>
+	<array>
+		<string>Índice de Ejaculação Precoce</string>
+		<string>Estas questões são acerca dos efeitos que os seus problemas sexuais têm tido na sua vida sexual durante as quatro últimas semanas. Por favor responda às seguintes questões de forma tão honesta e clara quanto possível. Ao responder a estas questões, aplicam-se as seguintes definições:</string>
+		<string>- Relação sexual é definida como a penetração vaginal (você penetra na sua parceira)</string>
+		<string>- Ejaculação: a ejeção de sêmen vindo do pênis</string>
+		<string>- Controle: ejacular quando está pronto</string>
+		<string>- Chateado: significa o quanto está frustrado, desapontado ou aborrecido com a sua ejaculação precoce.</string>
+	</array>
+	<key>HSDD</key>
+	<array>
+		<string>￼Rastreador do Distúrbio do Desejo Sexual Hipoativo (versão em português do HSDD Screener©)</string>
+		<string>Definições: Vida sexual inclui qualquer atividade que pode resultar em estimulação ou prazer sexual (penetração, carícias, preliminares, masturbação, sexo oral), assim como o relacionamento sexual emocional que você tem com a sua(eu) parceira(o).</string>
+		<string>Nos últimos três meses você tem vivenciado qualquer dificuldade na sua vida sexual ?</string>
+	</array>
+</dict>
+</plist>

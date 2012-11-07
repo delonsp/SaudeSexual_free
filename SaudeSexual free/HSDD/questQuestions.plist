@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>pergunta01</key>
+	<array>
+		<string> Ao longo dos últimos 3 meses você tem experimentado qualquer dificuldade em sentir interesse ou desejo sexual ?</string>
+		<string>Nenhuma dificuldade</string>
+		<string>Discreta dificuldade</string>
+		<string>Moderada dificuldade</string>
+		<string>Uma grande dificuldade</string>
+		<string>Uma enorme dificuldade</string>
+	</array>
+	<key>pergunta02</key>
+	<array>
+		<string> Ao longo dos últimos 3 meses você tem experimentado qualquer dificuldade em ser receptivo(a) ao desejo sexual de sua(eu) parceira(o) por você ?</string>
+		<string>Nenhuma dificuldade</string>
+		<string>Discreta dificuldade</string>
+		<string>Moderada dificuldade</string>
+		<string>Uma grande dificuldade</string>
+		<string>Uma enorme dificuldade</string>
+	</array>
+	<key>pergunta03</key>
+	<array>
+		<string> Ao longo dos últimos 3 meses vem perdendo o interesse por sexo assim que a atividade sexual se inicia ?</string>
+		<string>Nenhuma dificuldade</string>
+		<string>Discreta dificuldade</string>
+		<string>Moderada dificuldade</string>
+		<string>Uma grande dificuldade</string>
+		<string>Uma enorme dificuldade</string>
+	</array>
+	<key>pergunta04</key>
+	<array>
+		<string>Até que ponto você está preocupado com quaisquer das dificuldades acima ?</string>
+		<string>Nem um pouco preocupado</string>
+		<string>Um pouco preocupado</string>
+		<string>Moderadamente preocupado</string>
+		<string>Muito preocupado</string>
+		<string>Extremamente preocupado</string>
+	</array>
+</dict>
+</plist>

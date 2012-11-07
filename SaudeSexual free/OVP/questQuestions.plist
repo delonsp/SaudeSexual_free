@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>pergunta01</key>
+	<array>
+		<string>1) Com que freqüência você tem ereções no meio da noite  ou de manhã cedo quando acorda ?</string>
+		<string>a) Bastante freqüente ou na maioria das vezes.</string>
+		<string>b) Pouco frequente.</string>
+		<string>c) Raramente ou nunca.</string>
+	</array>
+	<key>pergunta02</key>
+	<array>
+		<string>2) Com que freqüência você tem ereções espontâneas quando assiste uma cena sensual na TV ou cinema, ou quando vê ou pensa em uma pessoa atraente ?</string>
+		<string>a) Bastante freqüente ou na maioria das vezes.</string>
+		<string>b) Pouco frequente.</string>
+		<string>c) Raramente ou nunca.</string>
+	</array>
+	<key>pergunta03</key>
+	<array>
+		<string>Quando você viaja de férias por mais de uma semana, o que acontece com a sua disposição geral para o sexo ?</string>
+		<string>a) Há uma grande melhora no meu apetite e desempenho sexual.</string>
+		<string>b) Há uma certa melhora no meu apetite e desempenho sexual.</string>
+		<string>c) Não há nenhuma melhora no meu apetite ou desempenho sexual.</string>
+	</array>
+	<key>pergunta04</key>
+	<array>
+		<string>Como está a atração sexual pela sua parceira ?</string>
+		<string>a) Sinto frequente vontade de ter relações sexuais, mas na maioria das vezes  minha parceira não me atrai suficientemente. </string>
+		<string>b) Na maioria das vezes tenho vontade de ter relações com a minha parceira.</string>
+		<string>c) Na maioria das vezes não tenho vontade de ter relações com a minha parceira e nem com qualquer outra.</string>
+	</array>
+	<key>pergunta05</key>
+	<array>
+		<string>Como você se sente em relação a sua disposição mental ?</string>
+		<string>a) Vivo estressado  com problemas de casa, da família, de relacionamentos em geral, ou com o trabalho.</string>
+		<string>b) Na maioria das vezes estou tranqüilo e sem os problemas mencionados no item a.</string>
+		<string>c) Estou sempre tranqüilo.</string>
+	</array>
+</dict>
+</plist>

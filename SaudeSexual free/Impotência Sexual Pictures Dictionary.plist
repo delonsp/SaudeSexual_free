@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Introdução e Definições</key>
+	<array>
+		<string></string>
+	</array>
+	<key>Anatomia e fisiologia</key>
+	<array>
+		<string>Penis anatomy.jpg</string>
+		<string>erecao1.jpg</string>
+		<string>penis arterial.jpg</string>
+	</array>
+	<key>Causas</key>
+	<array>
+		<string>causas fisicas1.png</string>
+		<string>causas fisicas2.png</string>
+	</array>
+	<key>Dados Populacionais</key>
+	<array>
+		<string>prevalencia DE.png</string>
+	</array>
+	<key>Investigação e Exames</key>
+	<array>
+		<string>biotesiometria.jpg</string>
+		<string>angiografia.jpg</string>
+		<string>rigiscan.jpg</string>
+	</array>
+	<key>Tratamento</key>
+	<array>
+		<string>injection testing.jpg</string>
+		<string>proper site of injection.jpg</string>
+		<string>vacuo.jpg</string>
+		<string>vacuo2.jpg</string>
+		<string>torniquete.jpg</string>
+		<string>muse.jpg</string>
+		<string>protese.jpg</string>
+		<string>protese 3 volumes.jpg</string>
+	</array>
+	<key>Derrubando mitos</key>
+	<array>
+		<string></string>
+	</array>
+</dict>
+</plist>
