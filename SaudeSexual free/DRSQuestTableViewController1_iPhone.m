@@ -56,9 +56,12 @@
                                              selector:@selector(appWillEnterForegroundNotification:)
                                                  name:UIApplicationWillEnterForegroundNotification
                                                object:nil];
+     UIImage *navBarImage = [[UIImage imageNamed:@"menubar.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(5, 15, 5, 15)];
+    [self.navigationController.navigationBar setBackgroundImage:navBarImage forBarMetrics:UIBarMetricsDefault];
     
-    self.navigationController.navigationBar.tintColor = [UIColor
-                                                         colorWithRed:0.31 green:0.52 blue:0.74 alpha:1];
+//    self.navigationController.navigationBar.tintColor = [UIColor
+//                                                         colorWithRed:0.31 green:0.52 blue:0.74 alpha:1];
+    
     UILabel *titleView = (UILabel *)self.navigationItem.titleView;
     if (!titleView) {
         titleView = [[UILabel alloc] initWithFrame:CGRectZero];
