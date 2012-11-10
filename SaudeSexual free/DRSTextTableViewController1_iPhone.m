@@ -69,9 +69,9 @@
     }
     titleView.text = @"Saúde Sexual Free";
     [titleView sizeToFit];
-    UIImageView *imgView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"background.png"]];
-    [self.tableView setBackgroundView:imgView];
-       
+//    UIImageView *imgView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"background.png"]];
+//    [self.tableView setBackgroundView:imgView];
+    
 }
 
 - (void)viewDidAppear:(BOOL)animated
@@ -124,8 +124,8 @@
     cell.textLabel.text = self.item;
     cell.textLabel.textColor = [UIColor whiteColor];
 
-    cell.textLabel.backgroundColor = [UIColor clearColor];
-    cell.backgroundColor = [UIColor clearColor];
+//    cell.textLabel.backgroundColor = [UIColor clearColor];
+//    cell.backgroundColor = [UIColor clearColor];
     
 
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;

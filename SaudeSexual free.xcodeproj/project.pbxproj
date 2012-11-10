@@ -177,6 +177,17 @@
 		3F4E0D1D1632430B00FD6621 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E0D1C1632430B00FD6621 /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		3F91EEA7164C8B9A00E90F05 /* menubar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F91EEA6164C8B9A00E90F05 /* menubar.png */; };
 		3F91EEAA164C8BBF00E90F05 /* menubar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F91EEA9164C8BBF00E90F05 /* menubar@2x.png */; };
+		3F91EEAF164DB60A00E90F05 /* UIImage+iPhone5.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F91EEAE164DB60A00E90F05 /* UIImage+iPhone5.m */; };
+		3F91EEB2164DB64D00E90F05 /* menubar-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F91EEB0164DB64D00E90F05 /* menubar-button.png */; };
+		3F91EEB3164DB64D00E90F05 /* menubar-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F91EEB1164DB64D00E90F05 /* menubar-button@2x.png */; };
+		3F91EEB5164DB69600E90F05 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F91EEB4164DB69600E90F05 /* back.png */; };
+		3F91EEB7164DB6C100E90F05 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F91EEB6164DB6C100E90F05 /* back@2x.png */; };
+		3F91EEBC164DB6E900E90F05 /* tabbar-active.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F91EEB8164DB6E900E90F05 /* tabbar-active.png */; };
+		3F91EEBD164DB6E900E90F05 /* tabbar-active@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F91EEB9164DB6E900E90F05 /* tabbar-active@2x.png */; };
+		3F91EEBE164DB6E900E90F05 /* tabbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F91EEBA164DB6E900E90F05 /* tabbar.png */; };
+		3F91EEBF164DB6E900E90F05 /* tabbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F91EEBB164DB6E900E90F05 /* tabbar@2x.png */; };
+		3F91EEC2164DD41500E90F05 /* alert-bg-pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F91EEC0164DD41500E90F05 /* alert-bg-pattern.png */; };
+		3F91EEC3164DD41500E90F05 /* alert-bg-pattern@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F91EEC1164DD41500E90F05 /* alert-bg-pattern@2x.png */; };
 		3F9ABC7E16399CF300D25273 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F24AD491628C77700B3BCCC /* MainWindow_iPad.xib */; };
 		3F9EB1DF1629EFB300054118 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9EB1DE1629EFB300054118 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		3F9EB1E11629F31600054118 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9EB1E01629F31500054118 /* SystemConfiguration.framework */; };
@@ -491,6 +502,18 @@
 		3F4E0D1C1632430B00FD6621 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		3F91EEA6164C8B9A00E90F05 /* menubar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menubar.png; sourceTree = "<group>"; };
 		3F91EEA9164C8BBF00E90F05 /* menubar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menubar@2x.png"; sourceTree = "<group>"; };
+		3F91EEAD164DB60A00E90F05 /* UIImage+iPhone5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+iPhone5.h"; sourceTree = "<group>"; };
+		3F91EEAE164DB60A00E90F05 /* UIImage+iPhone5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+iPhone5.m"; sourceTree = "<group>"; };
+		3F91EEB0164DB64D00E90F05 /* menubar-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menubar-button.png"; sourceTree = "<group>"; };
+		3F91EEB1164DB64D00E90F05 /* menubar-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menubar-button@2x.png"; sourceTree = "<group>"; };
+		3F91EEB4164DB69600E90F05 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		3F91EEB6164DB6C100E90F05 /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		3F91EEB8164DB6E900E90F05 /* tabbar-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-active.png"; sourceTree = "<group>"; };
+		3F91EEB9164DB6E900E90F05 /* tabbar-active@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-active@2x.png"; sourceTree = "<group>"; };
+		3F91EEBA164DB6E900E90F05 /* tabbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar.png; sourceTree = "<group>"; };
+		3F91EEBB164DB6E900E90F05 /* tabbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar@2x.png"; sourceTree = "<group>"; };
+		3F91EEC0164DD41500E90F05 /* alert-bg-pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert-bg-pattern.png"; sourceTree = "<group>"; };
+		3F91EEC1164DD41500E90F05 /* alert-bg-pattern@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert-bg-pattern@2x.png"; sourceTree = "<group>"; };
 		3F9EB1DD1629EFB300054118 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		3F9EB1DE1629EFB300054118 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		3F9EB1E01629F31500054118 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -535,6 +558,7 @@
 		3F24AC401628ABDA00B3BCCC = {
 			isa = PBXGroup;
 			children = (
+				3F91EEAB164DB5B500E90F05 /* Categories */,
 				3F4E0D1A163242D600FD6621 /* MBProgressHUD */,
 				3F24AD041628C1B600B3BCCC /* Localytics */,
 				3F24AD101628C25700B3BCCC /* AutoRate */,
@@ -606,6 +630,16 @@
 		3F24AC751628ACE400B3BCCC /* pictures */ = {
 			isa = PBXGroup;
 			children = (
+				3F91EEC0164DD41500E90F05 /* alert-bg-pattern.png */,
+				3F91EEC1164DD41500E90F05 /* alert-bg-pattern@2x.png */,
+				3F91EEB8164DB6E900E90F05 /* tabbar-active.png */,
+				3F91EEB9164DB6E900E90F05 /* tabbar-active@2x.png */,
+				3F91EEBA164DB6E900E90F05 /* tabbar.png */,
+				3F91EEBB164DB6E900E90F05 /* tabbar@2x.png */,
+				3F91EEB6164DB6C100E90F05 /* back@2x.png */,
+				3F91EEB4164DB69600E90F05 /* back.png */,
+				3F91EEB0164DB64D00E90F05 /* menubar-button.png */,
+				3F91EEB1164DB64D00E90F05 /* menubar-button@2x.png */,
 				3F91EEA6164C8B9A00E90F05 /* menubar.png */,
 				3F91EEA9164C8BBF00E90F05 /* menubar@2x.png */,
 				3F1A7DAC16434E1D0003FD01 /* Unlocked.png */,
@@ -1021,6 +1055,24 @@
 			name = MBProgressHUD;
 			sourceTree = "<group>";
 		};
+		3F91EEAB164DB5B500E90F05 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				3F91EEAC164DB5CA00E90F05 /* UIImage+iPhone5 */,
+			);
+			name = Categories;
+			path = "SaudeSexual free";
+			sourceTree = "<group>";
+		};
+		3F91EEAC164DB5CA00E90F05 /* UIImage+iPhone5 */ = {
+			isa = PBXGroup;
+			children = (
+				3F91EEAD164DB60A00E90F05 /* UIImage+iPhone5.h */,
+				3F91EEAE164DB60A00E90F05 /* UIImage+iPhone5.m */,
+			);
+			name = "UIImage+iPhone5";
+			sourceTree = "<group>";
+		};
 		3FAC6D45162CB96100109A1B /* Main */ = {
 			isa = PBXGroup;
 			children = (
@@ -1232,6 +1284,16 @@
 				3F2460EB16480B4500A3E1CE /* productsID Dictionary 2.plist in Resources */,
 				3F91EEA7164C8B9A00E90F05 /* menubar.png in Resources */,
 				3F91EEAA164C8BBF00E90F05 /* menubar@2x.png in Resources */,
+				3F91EEB2164DB64D00E90F05 /* menubar-button.png in Resources */,
+				3F91EEB3164DB64D00E90F05 /* menubar-button@2x.png in Resources */,
+				3F91EEB5164DB69600E90F05 /* back.png in Resources */,
+				3F91EEB7164DB6C100E90F05 /* back@2x.png in Resources */,
+				3F91EEBC164DB6E900E90F05 /* tabbar-active.png in Resources */,
+				3F91EEBD164DB6E900E90F05 /* tabbar-active@2x.png in Resources */,
+				3F91EEBE164DB6E900E90F05 /* tabbar.png in Resources */,
+				3F91EEBF164DB6E900E90F05 /* tabbar@2x.png in Resources */,
+				3F91EEC2164DD41500E90F05 /* alert-bg-pattern.png in Resources */,
+				3F91EEC3164DD41500E90F05 /* alert-bg-pattern@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1289,6 +1351,7 @@
 				3F4E0D0B1632213F00FD6621 /* IAPHelper.m in Sources */,
 				3F4E0D1D1632430B00FD6621 /* MBProgressHUD.m in Sources */,
 				3F13CABB1635AC6D0094EB65 /* DRSStoreCell.m in Sources */,
+				3F91EEAF164DB60A00E90F05 /* UIImage+iPhone5.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

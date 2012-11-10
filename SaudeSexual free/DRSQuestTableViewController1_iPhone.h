@@ -12,6 +12,7 @@
 #import "DRSSaudeSexualIAPHelper.h"
 #import "DRSStoreCell.h"
 #import "Reachability.h"
+#import "UIImage+iPhone5.h"
 
 #define kNormalCell @"NormalCell"
 #define kDRSStoreCell @"DRSStoreCell"

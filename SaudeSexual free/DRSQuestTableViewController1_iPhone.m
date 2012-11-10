@@ -56,11 +56,10 @@
                                              selector:@selector(appWillEnterForegroundNotification:)
                                                  name:UIApplicationWillEnterForegroundNotification
                                                object:nil];
-     UIImage *navBarImage = [[UIImage imageNamed:@"menubar.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(5, 15, 5, 15)];
-    [self.navigationController.navigationBar setBackgroundImage:navBarImage forBarMetrics:UIBarMetricsDefault];
     
-//    self.navigationController.navigationBar.tintColor = [UIColor
-//                                                         colorWithRed:0.31 green:0.52 blue:0.74 alpha:1];
+    self.navigationController.navigationBar.tintColor = [UIColor
+                                                         colorWithRed:0.31 green:0.52 blue:0.74 alpha:1];
+    
     
     UILabel *titleView = (UILabel *)self.navigationItem.titleView;
     if (!titleView) {
@@ -76,8 +75,8 @@
     }
     titleView.text = @"Questionários";
     [titleView sizeToFit];
-    UIImageView *imgView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"background.png"]];
-    [self.tableView setBackgroundView:imgView];
+//    UIImageView *imgView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"background.png"]];
+//    [self.tableView setBackgroundView:imgView];
 }
 
 -(void) viewWillDisappear:(BOOL)animated {
@@ -90,6 +89,13 @@
 {
     [super viewDidLoad];
     [[LocalyticsSession sharedLocalyticsSession] tagEvent:CLICKED_QUESTIONNAIRE_TAB_IN_IPHONE];
+    
+     CALayer* shadow = [self createShadowWithFrame:CGRectMake(0, 0, 320, 5)];
+    [self.tableView.layer addSublayer:shadow];
+    
+    
+    UIColor* bgColor = [UIColor colorWithPatternImage:[UIImage tallImageNamed:@"ipad-BG-pattern.png"]];
+    [self.view setBackgroundColor:bgColor];
     
     self.dataSource = [[DRSIAPDataSource alloc] init];
     _priceFormatter = [[NSNumberFormatter alloc] init];
@@ -325,6 +331,13 @@
             cell.cellPriceImage.image = thumbsUp;
         }
         
+//        if(indexPath.row == 1)
+//        {
+//            CALayer* shadow = [self createShadowWithFrame:CGRectMake(0, 90, 320, 5)];
+//            
+//            [cell.layer addSublayer:shadow];
+//        }
+
         
         return cell;
         
@@ -513,6 +526,20 @@ didDismissWithButtonIndex:(NSInteger)buttonIndex {
     return product;
     
     
+}
+
+-(CALayer *)createShadowWithFrame:(CGRect)frame
+{
+    CAGradientLayer *gradient = [CAGradientLayer layer];
+    gradient.frame = frame;
+    
+    
+    UIColor* lightColor = [[UIColor blackColor] colorWithAlphaComponent:0.0];
+    UIColor* darkColor = [[UIColor blackColor] colorWithAlphaComponent:0.3];
+    
+    gradient.colors = [NSArray arrayWithObjects:(id)darkColor.CGColor, (id)lightColor.CGColor, nil];
+    
+    return gradient;
 }
 
 

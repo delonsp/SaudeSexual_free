@@ -152,6 +152,8 @@
         self.window.rootViewController = self.tabBarController;
         [self.window makeKeyAndVisible];
         
+    } else if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"5.0")){
+        [self customizeiPhoneTheme];
     }
     
     
@@ -246,5 +248,46 @@
         l = nil;
     }
 }
+
+-(void)customizeiPhoneTheme
+{
+    [[UIApplication sharedApplication]
+     setStatusBarStyle:UIStatusBarStyleBlackOpaque animated:NO];
+    
+    UIImage *navBarImage = [[UIImage tallImageNamed:@"menubar.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(5, 15, 5, 15)];
+    
+    [[UINavigationBar appearance] setBackgroundImage:navBarImage forBarMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearance] setBackgroundColor:[UIColor blackColor]];
+                         
+    UIImage *barButton = [[UIImage tallImageNamed:@"menubar-button.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 4, 0, 4)];
+    
+    [[UIBarButtonItem appearance] setBackgroundImage:barButton forState:UIControlStateNormal
+                                          barMetrics:UIBarMetricsDefault];
+    
+    UIImage *backButton = [[UIImage tallImageNamed:@"back.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 14, 0, 4)];
+    
+    [[UIBarButtonItem appearance] setBackButtonBackgroundImage:backButton forState:UIControlStateNormal
+                                                    barMetrics:UIBarMetricsDefault];
+    
+//    
+//    UIImage *minImage = [UIImage tallImageNamed:@"ipad-slider-fill"];
+//    UIImage *maxImage = [UIImage tallImageNamed:@"ipad-slider-track.png"];
+//    UIImage *thumbImage = [UIImage tallImageNamed:@"ipad-slider-handle.png"];
+//    
+//    [[UISlider appearance] setMaximumTrackImage:maxImage forState:UIControlStateNormal];
+//    [[UISlider appearance] setMinimumTrackImage:minImage forState:UIControlStateNormal];
+//    [[UISlider appearance] setThumbImage:thumbImage forState:UIControlStateNormal];
+//    [[UISlider appearance] setThumbImage:thumbImage forState:UIControlStateHighlighted];
+    
+    UIImage* tabBarBackground = [UIImage tallImageNamed:@"tabbar.png"];
+    [[UITabBar appearance] setBackgroundImage:tabBarBackground];
+    
+    
+    [[UITabBar appearance] setSelectionIndicatorImage:[UIImage tallImageNamed:@"tabbar-active.png"]];
+    
+}
+
+
+
 
 @end
