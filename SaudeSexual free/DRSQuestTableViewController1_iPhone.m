@@ -273,9 +273,10 @@
         cell.cellLabelText.text = self.dataSource.item;
         cell.cellLabelText.textAlignment = UITextAlignmentLeft;
         cell.cellLabelText.numberOfLines = 4;
-        cell.cellLabelText.backgroundColor = [UIColor clearColor];
+//        cell.cellLabelText.backgroundColor = [UIColor clearColor];
+//        cell.backgroundColor = [UIColor clearColor];
         cell.cellLabelText.textColor = [UIColor whiteColor];
-        cell.backgroundColor = [UIColor clearColor];
+        
         
         
         if (indexPath.section == 1) {

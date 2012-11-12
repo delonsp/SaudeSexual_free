@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "UIImage+iPhone5.h"
 
 @interface DRSTextTableViewController1_iPhone : UITableViewController 
 

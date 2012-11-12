@@ -9,6 +9,7 @@
 #import "DRSTextTableViewController1_iPhone.h"
 #import "DRSTextTableViewController2_iPhone.h"
 
+
 @implementation DRSTextTableViewController1_iPhone
 @synthesize rootItems, item;
 
@@ -40,7 +41,11 @@
         NSArray *array = [[NSArray alloc] initWithContentsOfFile:path];
         rootItems = array;
     }
-        
+    
+//    UIColor* bgColor = [UIColor colorWithPatternImage:[UIImage tallImageNamed:@"ipad-BG-pattern.png"]];
+    UIColor *bgColor = [UIColor grayColor];
+    [self.tableView setBackgroundColor:bgColor];
+    
 }
 
 - (void)viewDidUnload
